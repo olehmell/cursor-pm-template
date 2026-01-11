@@ -1,0 +1,221 @@
+user_id,survey_date,breed,confusion_during_onboarding,feature_request,nps_score
+USR00001,2024-11-05,Dandie Dinmont Terrier,Needed a 24/7 filter and real reviews,Needed clinic directory and SOS,10
+USR00002,2024-11-16,Manchester Terrier (Standard),Wanted a safe community to share pet moments,Needed community and peer advice,7
+USR00003,2024-11-19,German Pinscher,Wanted real owner experiences instead of generic articles,Needed community and peer advice,8
+USR00004,2024-11-21,German Pinscher,Not sure what to do if my pet gets lost.,Needed QR pet ID and lost pet mode,10
+USR00005,2024-11-24,Shih Tzu,Wanted a safe community to share pet moments,Needed community and peer advice,6
+USR00006,2024-11-07,German Shepherd Dog,I wasn’t sure what foods are dangerous vs safe,Needed safe food lookup,6
+USR00007,2024-11-26,West Highland White Terrier,Didn’t know what a ‘good’ feeding plan looks like,Needed examples or templates,5
+USR00008,2024-11-20,Cavalier King Charles Spaniel,I wasn’t sure what foods are dangerous vs safe.,Needed safe food lookup,7
+USR00009,2024-11-23,Redbone Coonhound,Wanted an SOS button for ‘is this urgent?’,Needed clinic directory and SOS,9
+USR00010,2024-11-27,Maltese,Setup felt like a checklist was missing,Needed onboarding checklist and reminders,5
+USR00011,2024-11-04,Old English Sheepdog (Bobtail),"Wanted to start from a prefilled example instead of a blank screen. Also, I wanted a ‘copy a typical plan’ option",Needed examples or templates,3
+USR00012,2024-11-23,Silky Terrier,"Wanted a quick ‘can my pet eat this?’ check. Also, confused by ingredient labels and marketing",Needed safe food lookup,4
+USR00013,2024-11-13,Briard,"I wasn’t sure what to enter, so I stopped.",Needed examples or templates,8
+USR00014,2024-11-26,Alaskan Malamute,Couldn’t find where to upload a scan or PDF,Needed digital vet passport and document storage,5
+USR00015,2024-11-30,Scottish Deerhound,Wanted a clear ‘next action’ after setup.,Needed onboarding checklist and reminders,8
+USR00016,2024-11-17,Neopolitan Mastiff,Unsure what I’m supposed to do next in onboarding.,Needed onboarding checklist and reminders,7
+USR00017,2024-11-05,Shetland Sheepdog (Sheltie),"Didn’t know what info matters to save for future vet visits. Also, I lose paper vet documents when moving",Needed digital vet passport and document storage,3
+USR00018,2024-11-29,Puli,I lose paper vet documents when moving.,Needed digital vet passport and document storage,5
+USR00019,2024-11-23,Anatolian Sheepdog,Not sure what daily grams to enter for my pet,Needed feeding calculator and portion guidance,4
+USR00020,2024-11-05,Harrier,Not sure which reminders matter first (feeding vs stock vs meds),Needed onboarding checklist and reminders,8
+USR00021,2024-11-20,Basset Hound,Didn’t know what a ‘good’ feeding plan looks like,Needed examples or templates,4
+USR00022,2024-11-20,Schipperke,Not sure which reminders matter first (feeding vs stock vs meds).,Needed onboarding checklist and reminders,10
+USR00023,2024-11-25,Welsh Springer Spaniel,"Wanted real owner experiences instead of generic articles. Also, wanted a safe community to share pet moments",Needed community and peer advice,10
+USR00024,2024-11-02,Tibetan Terrier,I needed clearer guidance for multi-food feeding,Needed feeding calculator and portion guidance,8
+USR00025,2024-11-04,German Pinscher,Not sure how to split responsibilities in one household,Needed shared household tracking,6
+USR00026,2024-11-10,Flat Coated Retriever,"Everything worked, I’d only tweak the copy.",No major issues,9
+USR00027,2024-11-15,Afghan Hound,Wanted a clear ‘next action’ after setup,Needed onboarding checklist and reminders,7
+USR00028,2024-11-17,Bearded Collie,Needed a friendly place to ask without judgment,Needed community and peer advice,9
+USR00029,2024-11-21,Pug,"Too many options during setup and I hesitated. Also, wanted to start from a prefilled example instead of a blank screen",Needed examples or templates,4
+USR00030,2024-11-15,Golden Retriever,"When something felt wrong, I panicked and googled scary stuff",Needed clinic directory and SOS,5
+USR00031,2024-11-22,Shih Tzu,Setup felt like a checklist was missing,Needed onboarding checklist and reminders,6
+USR00032,2024-11-12,Pharaoh Hound,Not sure what to do if my pet gets lost.,Needed QR pet ID and lost pet mode,10
+USR00033,2024-11-26,Gordon Setter,I missed a step and only realized later.,Needed onboarding checklist and reminders,7
+USR00034,2024-11-13,Clumber Spaniel,Didn’t know what a ‘good’ feeding plan looks like,Needed examples or templates,5
+USR00035,2024-11-27,Pomeranian,Wanted a QR tag profile with owner contact info,Needed QR pet ID and lost pet mode,7
+USR00036,2024-11-30,Coton de Tulear,Wanted weight-based portion suggestions,Needed feeding calculator and portion guidance,7
+USR00037,2024-11-10,Bull Dog,Not sure which reminders matter first (feeding vs stock vs meds),Needed onboarding checklist and reminders,3
+USR00038,2024-11-04,Gordon Setter,I didn’t understand how to split portions across meals,Needed feeding calculator and portion guidance,10
+USR00039,2024-11-28,Petit Basset Griffon Vendeen,Unclear how to share access with a partner.,Needed shared household tracking,8
+USR00040,2024-11-22,Harrier,Wanted real owner experiences instead of generic articles,Needed community and peer advice,7
+USR00041,2024-11-02,Chow Chow,Unsure whether to track wet and dry food separately.,Needed examples or templates,6
+USR00042,2024-11-06,Chinese Shar Pei,Wanted weight-based portion suggestions,Needed feeding calculator and portion guidance,6
+USR00043,2024-11-15,Doberman Pinscher,I didn’t understand how to split portions across meals,Needed feeding calculator and portion guidance,10
+USR00044,2024-11-09,Irish Wolfhound,"I use multiple pet gadgets and hate switching apps. Also, wanted trends from smart devices in one place",Needed integrations with devices,6
+USR00045,2024-11-01,Australian Cattle Dog,Wanted one place for vet reports across clinics,Needed digital vet passport and document storage,6
+USR00046,2024-11-07,Otter Hound,Wanted a shared log so I don’t have to ask ‘did you feed?’.,Needed shared household tracking,10
+USR00047,2024-11-30,Vizsla,Didn’t know how to evaluate food quality,Needed safe food lookup,9
+USR00048,2024-11-20,Boxer,"Not sure which reminders matter first (feeding vs stock vs meds). Also, didn’t know what the first step is after adding my pet",Needed onboarding checklist and reminders,6
+USR00049,2024-11-20,Clumber Spaniel,I wanted a guided path instead of open-ended forms,Needed onboarding checklist and reminders,6
+USR00050,2024-11-18,Cairn Terrier,I missed a step and only realized later,Needed onboarding checklist and reminders,7
+USR00051,2024-11-12,Petit Basset Griffon Vendeen,Unsure how often to adjust portions as the pet grows.,Needed feeding calculator and portion guidance,3
+USR00052,2024-11-30,Gordon Setter,Wanted key warnings and notes visible via QR.,Needed QR pet ID and lost pet mode,7
+USR00053,2024-11-20,Samoyed,Wanted to start from a prefilled example instead of a blank screen.,Needed examples or templates,7
+USR00054,2024-11-04,Toy Fox Terrier,Unsure how often to adjust portions as the pet grows,Needed feeding calculator and portion guidance,7
+USR00055,2024-11-28,Tibetan Mastiff,We double-fed because we didn’t coordinate,Needed shared household tracking,10
+USR00056,2024-11-18,German Wirehaired Pointer,Didn’t know how to evaluate food quality,Needed safe food lookup,7
+USR00057,2024-11-18,Great Pyrenees,Wanted one place for vet reports across clinics,Needed digital vet passport and document storage,1
+USR00058,2024-11-27,Vizsla,Wanted a quick ‘can my pet eat this?’ check.,Needed safe food lookup,5
+USR00059,2024-11-25,Belgian Tervuren,Kept thinking ‘am I feeding too much or too little?’,Needed feeding calculator and portion guidance,4
+USR00060,2024-11-15,Scottish Terrier,Wanted one place for vet reports across clinics,Needed digital vet passport and document storage,6
+USR00061,2024-11-11,Bull Dog,"Unsure what to do when the pet refuses food. Also, wanted a quick ‘can my pet eat this?’ check",Needed safe food lookup,8
+USR00062,2024-11-17,Airdale Terrier,Wanted a clear ‘next action’ after setup,Needed onboarding checklist and reminders,3
+USR00063,2024-11-02,Shetland Sheepdog (Sheltie),Needed a 24/7 filter and real reviews,Needed clinic directory and SOS,8
+USR00064,2024-11-29,Dandie Dinmont Terrier,I didn’t know if the app can connect to my devices.,Needed integrations with devices,8
+USR00065,2024-11-17,Italian Greyhound,Not sure what to do if my pet gets lost,Needed QR pet ID and lost pet mode,9
+USR00066,2024-11-13,Basenji,I wanted a guided path instead of open-ended forms.,Needed onboarding checklist and reminders,5
+USR00067,2024-11-06,Samoyed,Didn’t know how to evaluate food quality,Needed safe food lookup,5
+USR00068,2024-11-08,Canaan Dog,Needed a 24/7 filter and real reviews,Needed clinic directory and SOS,6
+USR00069,2024-11-01,Papillon,Not sure what to do if my pet gets lost,Needed QR pet ID and lost pet mode,7
+USR00070,2024-11-28,Maltese,I wanted a guided path instead of open-ended forms,Needed onboarding checklist and reminders,8
+USR00071,2024-11-20,Polish Lowland Sheepdog,"Wanted a safe community to share pet moments. Also, needed a friendly place to ask without judgment",Needed community and peer advice,5
+USR00072,2024-11-15,Keeshond,Unsure what to do when the pet refuses food,Needed safe food lookup,8
+USR00073,2024-11-11,Bedlington Terrier,Not sure which clinic to trust quickly.,Needed clinic directory and SOS,7
+USR00074,2024-11-27,Australian Terrier,Setup felt like a checklist was missing,Needed onboarding checklist and reminders,7
+USR00075,2024-11-12,Boxer,"Unsure whether to track wet and dry food separately. Also, too many options during setup and I hesitated",Needed examples or templates,8
+USR00076,2024-11-28,Bull Terrier,"I wasn’t sure what foods are dangerous vs safe. Also, unsure what to do when the pet refuses food",Needed safe food lookup,7
+USR00077,2024-11-07,Golden Retriever,"I wasn’t sure what to enter, so I stopped",Needed examples or templates,3
+USR00078,2024-11-02,Bearded Collie,Didn’t know where to store vaccination dates (paper is annoying),Needed digital vet passport and document storage,6
+USR00079,2024-11-10,Irish Wolfhound,I needed clearer guidance for multi-food feeding,Needed feeding calculator and portion guidance,5
+USR00080,2024-11-24,Australian Terrier,I needed a ‘found pet’ flow that’s simple,Needed QR pet ID and lost pet mode,8
+USR00081,2024-11-03,Beauceron,Wanted an SOS button for ‘is this urgent?’,Needed clinic directory and SOS,10
+USR00082,2024-11-10,Pointer,Didn’t know what a ‘good’ feeding plan looks like,Needed examples or templates,9
+USR00083,2024-11-22,Papillon,Didn’t know what the first step is after adding my pet,Needed onboarding checklist and reminders,8
+USR00084,2024-11-14,Doberman Pinscher,"When something felt wrong, I panicked and googled scary stuff",Needed clinic directory and SOS,7
+USR00085,2024-11-25,Great Swiss Mountain Dog,Wanted a quick ‘can my pet eat this?’ check,Needed safe food lookup,5
+USR00086,2024-11-29,English Springer Spaniel,Wanted weight-based portion suggestions,Needed feeding calculator and portion guidance,7
+USR00087,2024-11-04,Black Russian Terrier,Not sure which reminders matter first (feeding vs stock vs meds).,Needed onboarding checklist and reminders,6
+USR00088,2024-11-11,Basenji,I lose paper vet documents when moving,Needed digital vet passport and document storage,9
+USR00089,2024-11-29,Great Swiss Mountain Dog,Not sure how to split responsibilities in one household,Needed shared household tracking,6
+USR00090,2024-11-30,Canaan Dog,Wanted to start from a prefilled example instead of a blank screen.,Needed examples or templates,8
+USR00091,2024-11-03,Kerry Blue Terrier,Couldn’t find a clinic with the right services fast enough,Needed clinic directory and SOS,9
+USR00092,2024-11-15,Basenji,"Needed a 24/7 filter and real reviews. Also, needed a 24/7 filter and real reviews",Needed clinic directory and SOS,4
+USR00093,2024-11-17,Bull Dog,Not sure what to do if my pet gets lost,Needed QR pet ID and lost pet mode,7
+USR00094,2024-11-25,Japanese Chin,Wanted to start from a prefilled example instead of a blank screen,Needed examples or templates,4
+USR00095,2024-11-07,Bernese Mountain Dog,"Setup felt like a checklist was missing. Also, not sure which reminders matter first (feeding vs stock vs meds)",Needed onboarding checklist and reminders,3
+USR00096,2024-11-04,Samoyed,Confused by ingredient labels and marketing.,Needed safe food lookup,6
+USR00097,2024-11-04,American Eskimo,We double-fed because we didn’t coordinate,Needed shared household tracking,8
+USR00098,2024-11-12,English Toy Spaniel,I learn most from other owners and groups,Needed community and peer advice,6
+USR00099,2024-11-09,Poodle Standard,I wanted a ‘copy a typical plan’ option.,Needed examples or templates,7
+USR00100,2024-11-16,Pomeranian,"I wasn’t sure what to enter, so I stopped",Needed examples or templates,6
+USR00101,2024-11-11,French Bulldog,"I didn’t understand how to split portions across meals. Also, kept thinking ‘am I feeding too much or too little?’",Needed feeding calculator and portion guidance,4
+USR00102,2024-11-18,Poodle Toy,I wanted a ‘copy a typical plan’ option.,Needed examples or templates,4
+USR00103,2024-11-23,Kerry Blue Terrier,Wanted one place for vet reports across clinics,Needed digital vet passport and document storage,4
+USR00104,2024-11-30,Glen Imaal Terrier,Didn’t know what a ‘good’ feeding plan looks like,Needed examples or templates,3
+USR00105,2024-11-05,Skye Terrier,"We double-fed because we didn’t coordinate. Also, wanted a shared log so I don’t have to ask ‘did you feed?’",Needed shared household tracking,6
+USR00106,2024-11-23,Black Russian Terrier,"I wasn’t sure what to enter, so I stopped.",Needed examples or templates,6
+USR00107,2024-11-11,American Staffordshire Terrier,Too many options during setup and I hesitated,Needed examples or templates,7
+USR00108,2024-11-18,Harrier,Not sure how to split responsibilities in one household,Needed shared household tracking,8
+USR00109,2024-11-24,Portuguese Water Dog,Wanted real owner experiences instead of generic articles,Needed community and peer advice,7
+USR00110,2024-11-09,Samoyed,Wanted a shared log so I don’t have to ask ‘did you feed?’,Needed shared household tracking,7
+USR00111,2024-11-24,Bernese Mountain Dog,Didn’t know what a ‘good’ feeding plan looks like.,Needed examples or templates,5
+USR00112,2024-11-30,Pug,We double-fed because we didn’t coordinate,Needed shared household tracking,10
+USR00113,2024-11-23,Yorkshire Terrier,Wanted key warnings and notes visible via QR,Needed QR pet ID and lost pet mode,8
+USR00114,2024-11-07,Affenpinscher,Too many options during setup and I hesitated,Needed examples or templates,10
+USR00115,2024-11-04,Schipperke,"I understood the flow, just want small polish",No major issues,5
+USR00116,2024-11-08,American Foxhound,Unsure what I’m supposed to do next in onboarding,Needed onboarding checklist and reminders,6
+USR00117,2024-11-10,Labrador Retriever,I wanted a ‘copy a typical plan’ option,Needed examples or templates,3
+USR00118,2024-11-24,Anatolian Sheepdog,"Not sure what daily grams to enter for my pet. Also, I didn’t understand how to split portions across meals",Needed feeding calculator and portion guidance,6
+USR00119,2024-11-06,Puli,I lose paper vet documents when moving,Needed digital vet passport and document storage,8
+USR00120,2024-11-04,Belgian Tervuren,"I wasn’t sure what to enter, so I stopped.",Needed examples or templates,4
+USR00121,2024-11-04,Plott Hound,I missed a step and only realized later,Needed onboarding checklist and reminders,9
+USR00122,2024-11-20,Plott Hound,I didn’t know if the app can connect to my devices,Needed integrations with devices,4
+USR00123,2024-11-01,Clumber Spaniel,Couldn’t find where to upload a scan or PDF.,Needed digital vet passport and document storage,4
+USR00124,2024-11-20,Chinese Crested,Unsure whether to track wet and dry food separately.,Needed examples or templates,9
+USR00125,2024-11-27,Silky Terrier,"Didn’t know where to store vaccination dates (paper is annoying). Also, couldn’t find where to upload a scan or PDF",Needed digital vet passport and document storage,9
+USR00126,2024-11-24,German Pinscher,"I wanted a guided path instead of open-ended forms. Also, setup felt like a checklist was missing",Needed onboarding checklist and reminders,1
+USR00127,2024-11-24,Pomeranian,Wanted to start from a prefilled example instead of a blank screen.,Needed examples or templates,3
+USR00128,2024-11-03,Weimaraner,Unsure how often to adjust portions as the pet grows.,Needed feeding calculator and portion guidance,5
+USR00129,2024-11-14,Maltese,Wanted key warnings and notes visible via QR,Needed QR pet ID and lost pet mode,8
+USR00130,2024-11-30,French Bulldog,"Wanted an SOS button for ‘is this urgent?’. Also, needed a 24/7 filter and real reviews",Needed clinic directory and SOS,9
+USR00131,2024-11-30,Sealyham Terrier,Kept thinking ‘am I feeding too much or too little?’.,Needed feeding calculator and portion guidance,10
+USR00132,2024-11-12,German Wirehaired Pointer,Didn’t know where to store vaccination dates (paper is annoying).,Needed digital vet passport and document storage,9
+USR00133,2024-11-15,Saint Bernard,I use multiple pet gadgets and hate switching apps,Needed integrations with devices,6
+USR00134,2024-11-09,Chesapeake Bay Retriever,I wanted a guided path instead of open-ended forms,Needed onboarding checklist and reminders,5
+USR00135,2024-11-04,German Shorthaired Pointer,"Setup felt like a checklist was missing. Also, wanted a clear ‘next action’ after setup",Needed onboarding checklist and reminders,8
+USR00136,2024-11-30,Skye Terrier,Wanted key warnings and notes visible via QR,Needed QR pet ID and lost pet mode,8
+USR00137,2024-11-24,Black And Tan Coonhound,"Unsure whether to track wet and dry food separately. Also, too many options during setup and I hesitated",Needed examples or templates,6
+USR00138,2024-11-15,Manchester Terrier (Toy),I use multiple pet gadgets and hate switching apps.,Needed integrations with devices,9
+USR00139,2024-11-08,Nova Scotia Duck Tolling Retriever,Wanted real owner experiences instead of generic articles.,Needed community and peer advice,8
+USR00140,2024-11-19,Briard,Wanted a quick ‘can my pet eat this?’ check.,Needed safe food lookup,6
+USR00141,2024-11-16,Australian Cattle Dog,I wanted a guided path instead of open-ended forms.,Needed onboarding checklist and reminders,6
+USR00142,2024-11-19,Portuguese Water Dog,Unsure how often to adjust portions as the pet grows,Needed feeding calculator and portion guidance,9
+USR00143,2024-11-25,Border Terrier,Unclear how to share access with a partner.,Needed shared household tracking,10
+USR00144,2024-11-13,Glen Imaal Terrier,"I understood the flow, just want small polish",No major issues,8
+USR00145,2024-11-18,Akita,Wanted real owner experiences instead of generic articles,Needed community and peer advice,6
+USR00146,2024-11-20,Spinone Italiano,Didn’t know what a ‘good’ feeding plan looks like.,Needed examples or templates,8
+USR00147,2024-11-05,Basset Hound,Not sure what to do if my pet gets lost,Needed QR pet ID and lost pet mode,9
+USR00148,2024-11-01,Mastiff,Unsure whether to track wet and dry food separately.,Needed examples or templates,6
+USR00149,2024-11-14,Tibetan Terrier,"I missed a step and only realized later. Also, wanted a clear ‘next action’ after setup",Needed onboarding checklist and reminders,6
+USR00150,2024-11-01,Chihuahua,Wanted a clear ‘next action’ after setup,Needed onboarding checklist and reminders,7
+USR00151,2024-11-07,Otter Hound,Not sure how to split responsibilities in one household.,Needed shared household tracking,8
+USR00152,2024-11-25,Plott Hound,Didn’t know what the first step is after adding my pet,Needed onboarding checklist and reminders,5
+USR00153,2024-11-02,Skye Terrier,Too many options during setup and I hesitated,Needed examples or templates,8
+USR00154,2024-11-01,Boxer,Wanted to start from a prefilled example instead of a blank screen,Needed examples or templates,5
+USR00155,2024-11-01,Beauceron,Confused by ingredient labels and marketing.,Needed safe food lookup,6
+USR00156,2024-11-02,Schipperke,I missed a step and only realized later.,Needed onboarding checklist and reminders,6
+USR00157,2024-11-23,Portuguese Water Dog,"I wasn’t sure what to enter, so I stopped",Needed examples or templates,5
+USR00158,2024-11-20,Poodle Standard,Setup felt like a checklist was missing,Needed onboarding checklist and reminders,7
+USR00159,2024-11-22,Rhodesian Ridgeback,Setup was straightforward for me,No major issues,10
+USR00160,2024-11-20,Giant Schnauzer,Kept thinking ‘am I feeding too much or too little?’,Needed feeding calculator and portion guidance,6
+USR00161,2024-11-07,Finnish Spitz,Too many options during setup and I hesitated,Needed examples or templates,5
+USR00162,2024-11-28,Clumber Spaniel,Not sure what daily grams to enter for my pet,Needed feeding calculator and portion guidance,9
+USR00163,2024-11-15,Cairn Terrier,Setup felt like a checklist was missing,Needed onboarding checklist and reminders,5
+USR00164,2024-11-10,Pharaoh Hound,Didn’t know what a ‘good’ feeding plan looks like.,Needed examples or templates,6
+USR00165,2024-11-27,Curly Coated Retriever,Setup felt like a checklist was missing,Needed onboarding checklist and reminders,6
+USR00166,2024-11-25,Clumber Spaniel,I needed clearer guidance for multi-food feeding,Needed feeding calculator and portion guidance,7
+USR00167,2024-11-14,Pug,I learn most from other owners and groups,Needed community and peer advice,7
+USR00168,2024-11-23,Beauceron,Unsure whether to track wet and dry food separately,Needed examples or templates,8
+USR00169,2024-11-26,Wirehaired Pointing Griffon,Not sure what to do if my pet gets lost,Needed QR pet ID and lost pet mode,8
+USR00170,2024-11-12,Borzoi,Wanted an SOS button for ‘is this urgent?’,Needed clinic directory and SOS,8
+USR00171,2024-11-08,Boston Terrier,I wanted a ‘copy a typical plan’ option,Needed examples or templates,7
+USR00172,2024-11-14,Boston Terrier,Wanted weight-based portion suggestions.,Needed feeding calculator and portion guidance,6
+USR00173,2024-11-24,Doberman Pinscher,Unsure what to do when the pet refuses food,Needed safe food lookup,7
+USR00174,2024-11-11,Cairn Terrier,Wanted a QR tag profile with owner contact info.,Needed QR pet ID and lost pet mode,10
+USR00175,2024-11-12,Silky Terrier,Wanted a quick ‘can my pet eat this?’ check.,Needed safe food lookup,6
+USR00176,2024-11-10,Irish Water Spaniel,Wanted a safe community to share pet moments.,Needed community and peer advice,6
+USR00177,2024-11-20,Vizsla,Needed a 24/7 filter and real reviews,Needed clinic directory and SOS,9
+USR00178,2024-11-09,Alaskan Malamute,"When something felt wrong, I panicked and googled scary stuff. Also, needed a 24/7 filter and real reviews",Needed clinic directory and SOS,6
+USR00179,2024-11-20,Welsh Springer Spaniel,"I understood the flow, just want small polish",No major issues,10
+USR00180,2024-11-29,Schipperke,"Wanted an SOS button for ‘is this urgent?’. Also, when something felt wrong, I panicked and googled scary stuff",Needed clinic directory and SOS,6
+USR00181,2024-11-30,Pointer,Wanted real owner experiences instead of generic articles.,Needed community and peer advice,9
+USR00182,2024-11-17,Clumber Spaniel,Not sure which reminders matter first (feeding vs stock vs meds),Needed onboarding checklist and reminders,6
+USR00183,2024-11-22,Wirehaired Pointing Griffon,"Wanted to start from a prefilled example instead of a blank screen. Also, didn’t know what a ‘good’ feeding plan looks like",Needed examples or templates,6
+USR00184,2024-11-15,Doberman Pinscher,Wanted a clear ‘next action’ after setup,Needed onboarding checklist and reminders,8
+USR00185,2024-11-14,Staffordshire Bull Terrier,Wanted an SOS button for ‘is this urgent?’.,Needed clinic directory and SOS,9
+USR00186,2024-11-24,Brussels Griffon,Unsure whether to track wet and dry food separately.,Needed examples or templates,6
+USR00187,2024-11-01,Scottish Terrier,I wanted a ‘copy a typical plan’ option,Needed examples or templates,7
+USR00188,2024-11-07,Bouvier Des Flandres,Didn’t know where to store vaccination dates (paper is annoying).,Needed digital vet passport and document storage,6
+USR00189,2024-11-19,Chinese Crested,"Not sure what daily grams to enter for my pet. Also, kept thinking ‘am I feeding too much or too little?’",Needed feeding calculator and portion guidance,6
+USR00190,2024-11-13,Plott Hound,Wanted weight-based portion suggestions,Needed feeding calculator and portion guidance,8
+USR00191,2024-11-20,American Eskimo,Kept thinking ‘am I feeding too much or too little?’,Needed feeding calculator and portion guidance,6
+USR00192,2024-11-29,Old English Sheepdog (Bobtail),Didn’t know where to store vaccination dates (paper is annoying),Needed digital vet passport and document storage,2
+USR00193,2024-11-13,American Water Spaniel,I wanted a ‘copy a typical plan’ option.,Needed examples or templates,4
+USR00194,2024-11-04,Dalmatian,Didn’t know what the first step is after adding my pet,Needed onboarding checklist and reminders,6
+USR00195,2024-11-09,Basset Hound,Unclear how to share access with a partner.,Needed shared household tracking,8
+USR00196,2024-11-28,Beagle,"Setup felt like a checklist was missing. Also, I wanted a guided path instead of open-ended forms",Needed onboarding checklist and reminders,5
+USR00197,2024-11-23,Manchester Terrier (Toy),Wanted an SOS button for ‘is this urgent?’,Needed clinic directory and SOS,5
+USR00198,2024-11-11,Scottish Deerhound,Unsure what to do when the pet refuses food,Needed safe food lookup,9
+USR00199,2024-11-14,Basset Hound,Unsure how often to adjust portions as the pet grows.,Needed feeding calculator and portion guidance,8
+USR00200,2024-11-01,Poodle Toy,Wanted to start from a prefilled example instead of a blank screen,Needed examples or templates,3
+USR00201,2024-11-11,Australian Shepherd,Unsure what to do when the pet refuses food.,Needed safe food lookup,8
+USR00202,2024-11-01,Giant Schnauzer,I wanted a ‘copy a typical plan’ option,Needed examples or templates,5
+USR00203,2024-11-18,Manchester Terrier (Toy),"Unclear how to share access with a partner. Also, not sure how to split responsibilities in one household",Needed shared household tracking,10
+USR00204,2024-11-01,Coton de Tulear,Onboarding was clear and fast,No major issues,8
+USR00205,2024-11-20,American Staffordshire Terrier,I wanted a guided path instead of open-ended forms,Needed onboarding checklist and reminders,3
+USR00206,2024-11-05,Collie (Rough) & (Smooth),I wanted a guided path instead of open-ended forms,Needed onboarding checklist and reminders,4
+USR00207,2024-11-02,Pointer,Setup felt like a checklist was missing.,Needed onboarding checklist and reminders,6
+USR00208,2024-11-02,Cairn Terrier,Wanted a safe community to share pet moments,Needed community and peer advice,5
+USR00209,2024-11-05,Schipperke,Kept thinking ‘am I feeding too much or too little?’,Needed feeding calculator and portion guidance,10
+USR00210,2024-11-13,Great Swiss Mountain Dog,Confused by ingredient labels and marketing,Needed safe food lookup,5
+USR00211,2024-11-02,Rottweiler,I didn’t understand how to split portions across meals,Needed feeding calculator and portion guidance,6
+USR00212,2024-11-28,Australian Shepherd,Setup felt like a checklist was missing,Needed onboarding checklist and reminders,4
+USR00213,2024-11-24,Labrador Retriever,Wanted a quick ‘can my pet eat this?’ check.,Needed safe food lookup,7
+USR00214,2024-11-12,Shiba Inu,Unsure how often to adjust portions as the pet grows,Needed feeding calculator and portion guidance,6
+USR00215,2024-11-01,Belgian Tervuren,Too many options during setup and I hesitated,Needed examples or templates,9
+USR00216,2024-11-02,Otter Hound,"Didn’t know what a ‘good’ feeding plan looks like. Also, unsure whether to track wet and dry food separately",Needed examples or templates,6
+USR00217,2024-11-28,Shiba Inu,Setup felt like a checklist was missing,Needed onboarding checklist and reminders,7
+USR00218,2024-11-08,Chinese Shar Pei,Unsure whether to track wet and dry food separately,Needed examples or templates,8
+USR00219,2024-11-02,Brittany,Not sure what to do if my pet gets lost.,Needed QR pet ID and lost pet mode,9
+USR00220,2024-11-24,Bullmastiff,Wanted a shared log so I don’t have to ask ‘did you feed?’,Needed shared household tracking,3
