@@ -1,6 +1,13 @@
-usecases/01-data-analysis/interviews
+# local OS/editor/runtime files
+.DS_Store
+**/.DS_Store
+.venv/
+node_modules/
+dist/
+
+# local drafts and recordings
 DRAFT.md
-.venv
+*.mp4
 
 # for template usage
-**/artifacts
+# **/artifacts

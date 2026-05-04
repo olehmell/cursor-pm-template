@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-100 font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .mobile-frame {
+    width: 375px;
+    height: 812px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  }
+}
