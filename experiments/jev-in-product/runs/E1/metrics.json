@@ -1,0 +1,73 @@
+{
+  "n": 35,
+  "api_failures": 0,
+  "theme_accuracy": 0.6857,
+  "theme_correct": 24,
+  "severity_exact_match": 0.3429,
+  "severity_exact_correct": 12,
+  "severity_adjacent_match": 0.7143,
+  "severity_adjacent_correct": 25,
+  "theme_confusion": {
+    "setup_friction": {
+      "setup_friction": 8,
+      "other": 3,
+      "notifications": 1
+    },
+    "notifications": {
+      "notifications": 4,
+      "setup_friction": 1
+    },
+    "multi_pet": {
+      "multi_pet": 3
+    },
+    "trust_data": {
+      "setup_friction": 3,
+      "trust_data": 3,
+      "other": 2
+    },
+    "other": {
+      "other": 6,
+      "notifications": 1
+    }
+  },
+  "severity_confusion": {
+    "low": {
+      "low": 7,
+      "high": 1
+    },
+    "medium": {
+      "low": 8,
+      "medium": 4,
+      "high": 1
+    },
+    "high": {
+      "low": 9,
+      "medium": 4,
+      "high": 1
+    }
+  },
+  "high_confidence_theme_errors": [
+    {
+      "id": "e1-006",
+      "gold": "trust_data",
+      "pred": "setup_friction",
+      "confidence": 0.77
+    },
+    {
+      "id": "e1-019",
+      "gold": "setup_friction",
+      "pred": "other",
+      "confidence": 0.81
+    },
+    {
+      "id": "e1-021",
+      "gold": "trust_data",
+      "pred": "other",
+      "confidence": 0.72
+    }
+  ],
+  "usage_totals": {
+    "input_tokens": 26819,
+    "output_tokens": 2632
+  }
+}

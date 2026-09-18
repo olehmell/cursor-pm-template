@@ -1,0 +1,1128 @@
+{
+  "model": "jev-latest",
+  "dataset": "datasets/e1_interview_passages.jsonl",
+  "n": 35,
+  "results": [
+    {
+      "id": "e1-001",
+      "gold_theme": "notifications",
+      "gold_severity": "high",
+      "pred_theme": "notifications",
+      "pred_severity": "low",
+      "theme_confidence": 0.99,
+      "severity_score": 0.43,
+      "severity_confidence": 0.35,
+      "theme_probabilities": {
+        "trust_data": 0.0,
+        "notifications": 0.99,
+        "setup_friction": 0.0,
+        "other": 0.01,
+        "multi_pet": 0.0
+      },
+      "severity_probabilities": {
+        "0": 0.6,
+        "1": 0.37,
+        "2": 0.03
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 795,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-001.json"
+    },
+    {
+      "id": "e1-002",
+      "gold_theme": "setup_friction",
+      "gold_severity": "high",
+      "pred_theme": "setup_friction",
+      "pred_severity": "medium",
+      "theme_confidence": 0.39,
+      "severity_score": 1.12,
+      "severity_confidence": 0.6,
+      "theme_probabilities": {
+        "trust_data": 0.0,
+        "setup_friction": 0.52,
+        "multi_pet": 0.0,
+        "notifications": 0.48,
+        "other": 0.0
+      },
+      "severity_probabilities": {
+        "0": 0.07,
+        "1": 0.74,
+        "2": 0.19
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 803,
+        "output_tokens": 77
+      },
+      "raw_file": "runs/E1/raw/e1-002.json"
+    },
+    {
+      "id": "e1-003",
+      "gold_theme": "multi_pet",
+      "gold_severity": "low",
+      "pred_theme": "multi_pet",
+      "pred_severity": "low",
+      "theme_confidence": 0.82,
+      "severity_score": 0.04,
+      "severity_confidence": 0.94,
+      "theme_probabilities": {
+        "setup_friction": 0.0,
+        "trust_data": 0.0,
+        "other": 0.14,
+        "multi_pet": 0.86,
+        "notifications": 0.0
+      },
+      "severity_probabilities": {
+        "0": 0.96,
+        "1": 0.03,
+        "2": 0.01
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 738,
+        "output_tokens": 75
+      },
+      "raw_file": "runs/E1/raw/e1-003.json"
+    },
+    {
+      "id": "e1-004",
+      "gold_theme": "multi_pet",
+      "gold_severity": "medium",
+      "pred_theme": "multi_pet",
+      "pred_severity": "low",
+      "theme_confidence": 0.99,
+      "severity_score": 0.13,
+      "severity_confidence": 0.8,
+      "theme_probabilities": {
+        "setup_friction": 0.0,
+        "trust_data": 0.0,
+        "notifications": 0.0,
+        "multi_pet": 1.0,
+        "other": 0.0
+      },
+      "severity_probabilities": {
+        "0": 0.88,
+        "1": 0.11,
+        "2": 0.01
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 750,
+        "output_tokens": 75
+      },
+      "raw_file": "runs/E1/raw/e1-004.json"
+    },
+    {
+      "id": "e1-005",
+      "gold_theme": "setup_friction",
+      "gold_severity": "high",
+      "pred_theme": "setup_friction",
+      "pred_severity": "medium",
+      "theme_confidence": 0.81,
+      "severity_score": 0.75,
+      "severity_confidence": 0.48,
+      "theme_probabilities": {
+        "trust_data": 0.02,
+        "multi_pet": 0.0,
+        "notifications": 0.03,
+        "other": 0.1,
+        "setup_friction": 0.85
+      },
+      "severity_probabilities": {
+        "0": 0.3,
+        "1": 0.65,
+        "2": 0.05
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 751,
+        "output_tokens": 77
+      },
+      "raw_file": "runs/E1/raw/e1-005.json"
+    },
+    {
+      "id": "e1-006",
+      "gold_theme": "trust_data",
+      "gold_severity": "medium",
+      "pred_theme": "setup_friction",
+      "pred_severity": "medium",
+      "theme_confidence": 0.77,
+      "severity_score": 1.38,
+      "severity_confidence": 0.27,
+      "theme_probabilities": {
+        "setup_friction": 0.83,
+        "trust_data": 0.01,
+        "other": 0.16,
+        "multi_pet": 0.0,
+        "notifications": 0.0
+      },
+      "severity_probabilities": {
+        "0": 0.05,
+        "1": 0.52,
+        "2": 0.43
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 784,
+        "output_tokens": 77
+      },
+      "raw_file": "runs/E1/raw/e1-006.json"
+    },
+    {
+      "id": "e1-007",
+      "gold_theme": "setup_friction",
+      "gold_severity": "medium",
+      "pred_theme": "setup_friction",
+      "pred_severity": "medium",
+      "theme_confidence": 0.99,
+      "severity_score": 1.06,
+      "severity_confidence": 0.76,
+      "theme_probabilities": {
+        "trust_data": 0.0,
+        "multi_pet": 0.0,
+        "notifications": 0.0,
+        "setup_friction": 1.0,
+        "other": 0.0
+      },
+      "severity_probabilities": {
+        "0": 0.05,
+        "1": 0.84,
+        "2": 0.11
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 777,
+        "output_tokens": 77
+      },
+      "raw_file": "runs/E1/raw/e1-007.json"
+    },
+    {
+      "id": "e1-008",
+      "gold_theme": "trust_data",
+      "gold_severity": "medium",
+      "pred_theme": "setup_friction",
+      "pred_severity": "low",
+      "theme_confidence": 0.36,
+      "severity_score": 0.16,
+      "severity_confidence": 0.76,
+      "theme_probabilities": {
+        "trust_data": 0.44,
+        "multi_pet": 0.0,
+        "notifications": 0.0,
+        "other": 0.07,
+        "setup_friction": 0.49
+      },
+      "severity_probabilities": {
+        "0": 0.86,
+        "1": 0.12,
+        "2": 0.02
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 770,
+        "output_tokens": 77
+      },
+      "raw_file": "runs/E1/raw/e1-008.json"
+    },
+    {
+      "id": "e1-009",
+      "gold_theme": "multi_pet",
+      "gold_severity": "medium",
+      "pred_theme": "multi_pet",
+      "pred_severity": "low",
+      "theme_confidence": 0.98,
+      "severity_score": 0.37,
+      "severity_confidence": 0.44,
+      "theme_probabilities": {
+        "other": 0.01,
+        "setup_friction": 0.01,
+        "multi_pet": 0.98,
+        "notifications": 0.0,
+        "trust_data": 0.0
+      },
+      "severity_probabilities": {
+        "0": 0.65,
+        "1": 0.32,
+        "2": 0.03
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 752,
+        "output_tokens": 75
+      },
+      "raw_file": "runs/E1/raw/e1-009.json"
+    },
+    {
+      "id": "e1-010",
+      "gold_theme": "other",
+      "gold_severity": "low",
+      "pred_theme": "other",
+      "pred_severity": "low",
+      "theme_confidence": 0.58,
+      "severity_score": 0.27,
+      "severity_confidence": 0.6,
+      "theme_probabilities": {
+        "multi_pet": 0.13,
+        "notifications": 0.19,
+        "trust_data": 0.0,
+        "setup_friction": 0.03,
+        "other": 0.65
+      },
+      "severity_probabilities": {
+        "0": 0.78,
+        "1": 0.17,
+        "2": 0.05
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 785,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-010.json"
+    },
+    {
+      "id": "e1-011",
+      "gold_theme": "notifications",
+      "gold_severity": "high",
+      "pred_theme": "notifications",
+      "pred_severity": "low",
+      "theme_confidence": 0.82,
+      "severity_score": 0.06,
+      "severity_confidence": 0.91,
+      "theme_probabilities": {
+        "other": 0.1,
+        "multi_pet": 0.0,
+        "notifications": 0.86,
+        "trust_data": 0.01,
+        "setup_friction": 0.03
+      },
+      "severity_probabilities": {
+        "0": 0.95,
+        "1": 0.04,
+        "2": 0.01
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 766,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-011.json"
+    },
+    {
+      "id": "e1-012",
+      "gold_theme": "other",
+      "gold_severity": "low",
+      "pred_theme": "other",
+      "pred_severity": "low",
+      "theme_confidence": 0.95,
+      "severity_score": 0.11,
+      "severity_confidence": 0.83,
+      "theme_probabilities": {
+        "setup_friction": 0.03,
+        "multi_pet": 0.0,
+        "other": 0.97,
+        "notifications": 0.0,
+        "trust_data": 0.0
+      },
+      "severity_probabilities": {
+        "0": 0.92,
+        "1": 0.05,
+        "2": 0.03
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 762,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-012.json"
+    },
+    {
+      "id": "e1-013",
+      "gold_theme": "setup_friction",
+      "gold_severity": "high",
+      "pred_theme": "setup_friction",
+      "pred_severity": "low",
+      "theme_confidence": 0.83,
+      "severity_score": 0.48,
+      "severity_confidence": 0.28,
+      "theme_probabilities": {
+        "notifications": 0.08,
+        "multi_pet": 0.0,
+        "trust_data": 0.0,
+        "other": 0.06,
+        "setup_friction": 0.86
+      },
+      "severity_probabilities": {
+        "0": 0.58,
+        "1": 0.36,
+        "2": 0.06
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 765,
+        "output_tokens": 77
+      },
+      "raw_file": "runs/E1/raw/e1-013.json"
+    },
+    {
+      "id": "e1-014",
+      "gold_theme": "setup_friction",
+      "gold_severity": "high",
+      "pred_theme": "setup_friction",
+      "pred_severity": "low",
+      "theme_confidence": 0.66,
+      "severity_score": 0.46,
+      "severity_confidence": 0.31,
+      "theme_probabilities": {
+        "multi_pet": 0.0,
+        "notifications": 0.0,
+        "trust_data": 0.0,
+        "other": 0.27,
+        "setup_friction": 0.73
+      },
+      "severity_probabilities": {
+        "0": 0.62,
+        "1": 0.29,
+        "2": 0.09
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 745,
+        "output_tokens": 77
+      },
+      "raw_file": "runs/E1/raw/e1-014.json"
+    },
+    {
+      "id": "e1-015",
+      "gold_theme": "trust_data",
+      "gold_severity": "high",
+      "pred_theme": "trust_data",
+      "pred_severity": "low",
+      "theme_confidence": 0.96,
+      "severity_score": 0.72,
+      "severity_confidence": 0.0,
+      "theme_probabilities": {
+        "notifications": 0.0,
+        "multi_pet": 0.0,
+        "trust_data": 0.97,
+        "other": 0.02,
+        "setup_friction": 0.01
+      },
+      "severity_probabilities": {
+        "0": 0.49,
+        "1": 0.31,
+        "2": 0.2
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 770,
+        "output_tokens": 75
+      },
+      "raw_file": "runs/E1/raw/e1-015.json"
+    },
+    {
+      "id": "e1-016",
+      "gold_theme": "setup_friction",
+      "gold_severity": "high",
+      "pred_theme": "setup_friction",
+      "pred_severity": "high",
+      "theme_confidence": 0.91,
+      "severity_score": 1.46,
+      "severity_confidence": 0.19,
+      "theme_probabilities": {
+        "other": 0.05,
+        "multi_pet": 0.0,
+        "setup_friction": 0.93,
+        "notifications": 0.0,
+        "trust_data": 0.02
+      },
+      "severity_probabilities": {
+        "0": 0.03,
+        "1": 0.47,
+        "2": 0.5
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 787,
+        "output_tokens": 77
+      },
+      "raw_file": "runs/E1/raw/e1-016.json"
+    },
+    {
+      "id": "e1-017",
+      "gold_theme": "other",
+      "gold_severity": "low",
+      "pred_theme": "other",
+      "pred_severity": "low",
+      "theme_confidence": 0.96,
+      "severity_score": 0.04,
+      "severity_confidence": 0.93,
+      "theme_probabilities": {
+        "other": 0.98,
+        "multi_pet": 0.0,
+        "notifications": 0.02,
+        "trust_data": 0.0,
+        "setup_friction": 0.0
+      },
+      "severity_probabilities": {
+        "0": 0.96,
+        "1": 0.03,
+        "2": 0.01
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 758,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-017.json"
+    },
+    {
+      "id": "e1-018",
+      "gold_theme": "other",
+      "gold_severity": "low",
+      "pred_theme": "notifications",
+      "pred_severity": "low",
+      "theme_confidence": 0.47,
+      "severity_score": 0.02,
+      "severity_confidence": 0.96,
+      "theme_probabilities": {
+        "setup_friction": 0.02,
+        "multi_pet": 0.0,
+        "trust_data": 0.03,
+        "notifications": 0.58,
+        "other": 0.37
+      },
+      "severity_probabilities": {
+        "0": 0.98,
+        "1": 0.01,
+        "2": 0.01
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 759,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-018.json"
+    },
+    {
+      "id": "e1-019",
+      "gold_theme": "setup_friction",
+      "gold_severity": "medium",
+      "pred_theme": "other",
+      "pred_severity": "low",
+      "theme_confidence": 0.81,
+      "severity_score": 0.61,
+      "severity_confidence": 0.09,
+      "theme_probabilities": {
+        "notifications": 0.02,
+        "trust_data": 0.01,
+        "other": 0.86,
+        "multi_pet": 0.0,
+        "setup_friction": 0.11
+      },
+      "severity_probabilities": {
+        "0": 0.56,
+        "1": 0.27,
+        "2": 0.17
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 725,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-019.json"
+    },
+    {
+      "id": "e1-020",
+      "gold_theme": "other",
+      "gold_severity": "low",
+      "pred_theme": "other",
+      "pred_severity": "low",
+      "theme_confidence": 0.96,
+      "severity_score": 0.12,
+      "severity_confidence": 0.82,
+      "theme_probabilities": {
+        "trust_data": 0.0,
+        "multi_pet": 0.0,
+        "notifications": 0.0,
+        "setup_friction": 0.03,
+        "other": 0.97
+      },
+      "severity_probabilities": {
+        "0": 0.92,
+        "1": 0.05,
+        "2": 0.03
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 738,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-020.json"
+    },
+    {
+      "id": "e1-021",
+      "gold_theme": "trust_data",
+      "gold_severity": "high",
+      "pred_theme": "other",
+      "pred_severity": "low",
+      "theme_confidence": 0.72,
+      "severity_score": 0.13,
+      "severity_confidence": 0.8,
+      "theme_probabilities": {
+        "setup_friction": 0.02,
+        "other": 0.78,
+        "multi_pet": 0.0,
+        "trust_data": 0.19,
+        "notifications": 0.01
+      },
+      "severity_probabilities": {
+        "0": 0.88,
+        "1": 0.11,
+        "2": 0.01
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 744,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-021.json"
+    },
+    {
+      "id": "e1-022",
+      "gold_theme": "trust_data",
+      "gold_severity": "medium",
+      "pred_theme": "setup_friction",
+      "pred_severity": "medium",
+      "theme_confidence": 0.61,
+      "severity_score": 1.39,
+      "severity_confidence": 0.27,
+      "theme_probabilities": {
+        "multi_pet": 0.0,
+        "other": 0.03,
+        "setup_friction": 0.69,
+        "trust_data": 0.28,
+        "notifications": 0.0
+      },
+      "severity_probabilities": {
+        "0": 0.05,
+        "1": 0.51,
+        "2": 0.44
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 777,
+        "output_tokens": 77
+      },
+      "raw_file": "runs/E1/raw/e1-022.json"
+    },
+    {
+      "id": "e1-023",
+      "gold_theme": "other",
+      "gold_severity": "low",
+      "pred_theme": "other",
+      "pred_severity": "low",
+      "theme_confidence": 0.29,
+      "severity_score": 0.52,
+      "severity_confidence": 0.22,
+      "theme_probabilities": {
+        "multi_pet": 0.1,
+        "notifications": 0.03,
+        "trust_data": 0.37,
+        "setup_friction": 0.08,
+        "other": 0.42
+      },
+      "severity_probabilities": {
+        "0": 0.59,
+        "1": 0.29,
+        "2": 0.12
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 780,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-023.json"
+    },
+    {
+      "id": "e1-024",
+      "gold_theme": "trust_data",
+      "gold_severity": "medium",
+      "pred_theme": "trust_data",
+      "pred_severity": "medium",
+      "theme_confidence": 0.58,
+      "severity_score": 1.04,
+      "severity_confidence": 0.07,
+      "theme_probabilities": {
+        "other": 0.06,
+        "multi_pet": 0.0,
+        "trust_data": 0.67,
+        "notifications": 0.0,
+        "setup_friction": 0.27
+      },
+      "severity_probabilities": {
+        "0": 0.29,
+        "1": 0.38,
+        "2": 0.33
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 750,
+        "output_tokens": 75
+      },
+      "raw_file": "runs/E1/raw/e1-024.json"
+    },
+    {
+      "id": "e1-025",
+      "gold_theme": "notifications",
+      "gold_severity": "medium",
+      "pred_theme": "notifications",
+      "pred_severity": "low",
+      "theme_confidence": 0.83,
+      "severity_score": 0.07,
+      "severity_confidence": 0.9,
+      "theme_probabilities": {
+        "setup_friction": 0.02,
+        "other": 0.1,
+        "multi_pet": 0.02,
+        "notifications": 0.86,
+        "trust_data": 0.0
+      },
+      "severity_probabilities": {
+        "0": 0.94,
+        "1": 0.05,
+        "2": 0.01
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 775,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-025.json"
+    },
+    {
+      "id": "e1-026",
+      "gold_theme": "setup_friction",
+      "gold_severity": "high",
+      "pred_theme": "setup_friction",
+      "pred_severity": "medium",
+      "theme_confidence": 1.0,
+      "severity_score": 0.93,
+      "severity_confidence": 0.54,
+      "theme_probabilities": {
+        "multi_pet": 0.0,
+        "setup_friction": 1.0,
+        "other": 0.0,
+        "notifications": 0.0,
+        "trust_data": 0.0
+      },
+      "severity_probabilities": {
+        "0": 0.19,
+        "1": 0.69,
+        "2": 0.12
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 774,
+        "output_tokens": 77
+      },
+      "raw_file": "runs/E1/raw/e1-026.json"
+    },
+    {
+      "id": "e1-027",
+      "gold_theme": "setup_friction",
+      "gold_severity": "high",
+      "pred_theme": "other",
+      "pred_severity": "low",
+      "theme_confidence": 0.45,
+      "severity_score": 0.4,
+      "severity_confidence": 0.41,
+      "theme_probabilities": {
+        "trust_data": 0.06,
+        "setup_friction": 0.37,
+        "notifications": 0.0,
+        "other": 0.5700000000000001,
+        "multi_pet": 0.0
+      },
+      "severity_probabilities": {
+        "0": 0.63,
+        "1": 0.35,
+        "2": 0.02
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 760,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-027.json"
+    },
+    {
+      "id": "e1-028",
+      "gold_theme": "trust_data",
+      "gold_severity": "medium",
+      "pred_theme": "trust_data",
+      "pred_severity": "low",
+      "theme_confidence": 0.97,
+      "severity_score": 0.07,
+      "severity_confidence": 0.9,
+      "theme_probabilities": {
+        "trust_data": 0.98,
+        "multi_pet": 0.0,
+        "notifications": 0.0,
+        "other": 0.02,
+        "setup_friction": 0.0
+      },
+      "severity_probabilities": {
+        "0": 0.94,
+        "1": 0.06,
+        "2": 0.0
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 766,
+        "output_tokens": 75
+      },
+      "raw_file": "runs/E1/raw/e1-028.json"
+    },
+    {
+      "id": "e1-029",
+      "gold_theme": "notifications",
+      "gold_severity": "high",
+      "pred_theme": "notifications",
+      "pred_severity": "medium",
+      "theme_confidence": 0.78,
+      "severity_score": 0.65,
+      "severity_confidence": 0.26,
+      "theme_probabilities": {
+        "notifications": 0.83,
+        "trust_data": 0.0,
+        "other": 0.0,
+        "multi_pet": 0.0,
+        "setup_friction": 0.17
+      },
+      "severity_probabilities": {
+        "0": 0.42,
+        "1": 0.51,
+        "2": 0.07
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 789,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-029.json"
+    },
+    {
+      "id": "e1-030",
+      "gold_theme": "setup_friction",
+      "gold_severity": "medium",
+      "pred_theme": "notifications",
+      "pred_severity": "low",
+      "theme_confidence": 0.65,
+      "severity_score": 0.37,
+      "severity_confidence": 0.45,
+      "theme_probabilities": {
+        "setup_friction": 0.08,
+        "multi_pet": 0.0,
+        "trust_data": 0.17,
+        "other": 0.03,
+        "notifications": 0.72
+      },
+      "severity_probabilities": {
+        "0": 0.67,
+        "1": 0.29,
+        "2": 0.04
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 785,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-030.json"
+    },
+    {
+      "id": "e1-031",
+      "gold_theme": "trust_data",
+      "gold_severity": "medium",
+      "pred_theme": "other",
+      "pred_severity": "high",
+      "theme_confidence": 0.52,
+      "severity_score": 1.33,
+      "severity_confidence": 0.0,
+      "theme_probabilities": {
+        "notifications": 0.0,
+        "setup_friction": 0.09,
+        "multi_pet": 0.0,
+        "trust_data": 0.29,
+        "other": 0.62
+      },
+      "severity_probabilities": {
+        "0": 0.24,
+        "1": 0.19,
+        "2": 0.57
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 752,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-031.json"
+    },
+    {
+      "id": "e1-032",
+      "gold_theme": "notifications",
+      "gold_severity": "high",
+      "pred_theme": "setup_friction",
+      "pred_severity": "low",
+      "theme_confidence": 0.58,
+      "severity_score": 0.21,
+      "severity_confidence": 0.68,
+      "theme_probabilities": {
+        "multi_pet": 0.0,
+        "notifications": 0.26,
+        "setup_friction": 0.67,
+        "other": 0.07,
+        "trust_data": 0.0
+      },
+      "severity_probabilities": {
+        "0": 0.83,
+        "1": 0.12,
+        "2": 0.05
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 790,
+        "output_tokens": 77
+      },
+      "raw_file": "runs/E1/raw/e1-032.json"
+    },
+    {
+      "id": "e1-033",
+      "gold_theme": "setup_friction",
+      "gold_severity": "medium",
+      "pred_theme": "other",
+      "pred_severity": "low",
+      "theme_confidence": 0.56,
+      "severity_score": 0.72,
+      "severity_confidence": 0.0,
+      "theme_probabilities": {
+        "notifications": 0.01,
+        "trust_data": 0.04,
+        "other": 0.65,
+        "multi_pet": 0.01,
+        "setup_friction": 0.29
+      },
+      "severity_probabilities": {
+        "0": 0.53,
+        "1": 0.22,
+        "2": 0.25
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 774,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-033.json"
+    },
+    {
+      "id": "e1-034",
+      "gold_theme": "other",
+      "gold_severity": "low",
+      "pred_theme": "other",
+      "pred_severity": "high",
+      "theme_confidence": 0.81,
+      "severity_score": 1.7,
+      "severity_confidence": 0.54,
+      "theme_probabilities": {
+        "multi_pet": 0.0,
+        "notifications": 0.01,
+        "trust_data": 0.13,
+        "other": 0.85,
+        "setup_friction": 0.01
+      },
+      "severity_probabilities": {
+        "0": 0.11,
+        "1": 0.09,
+        "2": 0.8
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 732,
+        "output_tokens": 74
+      },
+      "raw_file": "runs/E1/raw/e1-034.json"
+    },
+    {
+      "id": "e1-035",
+      "gold_theme": "setup_friction",
+      "gold_severity": "high",
+      "pred_theme": "setup_friction",
+      "pred_severity": "low",
+      "theme_confidence": 0.9,
+      "severity_score": 0.58,
+      "severity_confidence": 0.13,
+      "theme_probabilities": {
+        "trust_data": 0.0,
+        "notifications": 0.03,
+        "setup_friction": 0.92,
+        "other": 0.05,
+        "multi_pet": 0.0
+      },
+      "severity_probabilities": {
+        "0": 0.5,
+        "1": 0.42,
+        "2": 0.08
+      },
+      "severity_legend": {
+        "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+        "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+        "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+      },
+      "usage": {
+        "input_tokens": 791,
+        "output_tokens": 77
+      },
+      "raw_file": "runs/E1/raw/e1-035.json"
+    }
+  ],
+  "failures": []
+}

@@ -11,22 +11,22 @@ Only three task families from a PM Cursor template: analysis, PRD, prototyping. 
 ## 3. Method
 For each task family: define 1–2 judgments, build a small gold dataset, run Jev, score vs gold, inspect misses.
 
-## 4. Experiments (planned)
-- **E1 Analysis:** theme tagging + activation-severity scoring on interview passages
-- **E2 PRD:** MVP-scope check + measurable-metric check on PRD sections
-- **E3 Prototype:** hypothesis-fit + CTA clarity on screen descriptions
+## 4. Experiments
+- **E1 Analysis:** theme tagging + activation-severity scoring on interview passages — **DONE (N=35, live API)**
+- **E2 PRD:** MVP-scope check + measurable-metric check on PRD sections — **dataset scaffolded**
+- **E3 Prototype:** hypothesis-fit + CTA clarity on screen descriptions — planned
 
 ## 5. Datasets
-Source, size, labeling protocol, agreement if multi-labeler (even if N=1 with frozen rubric).
+E1: `datasets/e1_interview_passages.jsonl` + `e1_rubric.md` (single labeler, frozen rubric). E2 stub: `e2_prd_sections.jsonl`.
 
 ## 6. Results
-Tables: accuracy / correlation / calibration notes; latency & cost if useful.
+E1 theme acc **68.6%**; severity exact **34.3%**, adjacent **71.4%**. See `runs/E1/metrics.md` and `paper/DRAFT.md`.
 
 ## 7. Discussion
 Where probabilities change a PM workflow; failure modes; what stays LLM-drafted.
 
 ## 8. Limits & next
-Tiny N, demo product context, single labeler.
+Tiny N, demo product context, single labeler. Next: E2 runs; E1 severity recalibration.
 
 ## Status
-Outline only — fill after E1 runs.
+**E1 complete** (dataset + live Jev + metrics + draft abstract/method/results). Outline + draft updated 2026-09-18.
