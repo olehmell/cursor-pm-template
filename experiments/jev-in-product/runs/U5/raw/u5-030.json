@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-030",
+    "ask": "Prototype the Skip path on onboarding upload and track how dominant Skip feels vs Upload CTA.",
+    "gold_skill": "prototyping",
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.8466666666666667,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.97,
+      "would_follow_template_workflow": 0.78,
+      "prose_suffices": 0.21
+    },
+    "fits": {
+      "data-analysis": 0.17,
+      "prd-writing": 0.17,
+      "prototyping": 0.94
+    },
+    "which_choice": "prototyping",
+    "which_probabilities": {
+      "prototyping": 0.99,
+      "prd-writing": 0.0,
+      "data-analysis": 0.01
+    },
+    "which_confidence": 0.99,
+    "pred_skill": "prototyping",
+    "decision_reason": "choice_winner"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "prototyping",
+        "confidence": 0.99,
+        "probabilities": {
+          "prototyping": 0.99,
+          "prd-writing": 0.0,
+          "data-analysis": 0.01
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.97
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.78
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.21
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.17
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.17
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.94
+      }
+    },
+    "usage": {
+      "input_tokens": 940,
+      "output_tokens": 174
+    }
+  }
+}

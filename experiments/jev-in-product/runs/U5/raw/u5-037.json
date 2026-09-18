@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-037",
+    "ask": "Do we have enough interview evidence that passport upload is worth prototyping, or should we dig into metrics more?",
+    "gold_skill": "data-analysis",
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.6966666666666667,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.85,
+      "would_follow_template_workflow": 0.66,
+      "prose_suffices": 0.42
+    },
+    "fits": {
+      "data-analysis": 0.82,
+      "prd-writing": 0.18,
+      "prototyping": 0.38
+    },
+    "which_choice": "data-analysis",
+    "which_probabilities": {
+      "prd-writing": 0.0,
+      "data-analysis": 1.0,
+      "prototyping": 0.0
+    },
+    "which_confidence": 0.99,
+    "pred_skill": "data-analysis",
+    "decision_reason": "choice_winner"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "data-analysis",
+        "confidence": 0.99,
+        "probabilities": {
+          "prd-writing": 0.0,
+          "data-analysis": 1.0,
+          "prototyping": 0.0
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.85
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.66
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.42
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.82
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.18
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.38
+      }
+    },
+    "usage": {
+      "input_tokens": 943,
+      "output_tokens": 172
+    }
+  }
+}

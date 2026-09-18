@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-048",
+    "ask": "How do I install Node 20 on Ubuntu?",
+    "gold_skill": null,
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.17333333333333334,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.05,
+      "would_follow_template_workflow": 0.42,
+      "prose_suffices": 0.95
+    },
+    "fits": {
+      "data-analysis": 0.02,
+      "prd-writing": 0.02,
+      "prototyping": 0.02
+    },
+    "which_choice": "prototyping",
+    "which_probabilities": {
+      "prototyping": 0.84,
+      "data-analysis": 0.08,
+      "prd-writing": 0.08
+    },
+    "which_confidence": 0.76,
+    "pred_skill": null,
+    "decision_reason": "gate_below"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "prototyping",
+        "confidence": 0.76,
+        "probabilities": {
+          "prototyping": 0.84,
+          "data-analysis": 0.08,
+          "prd-writing": 0.08
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.05
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.42
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.95
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.02
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.02
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.02
+      }
+    },
+    "usage": {
+      "input_tokens": 931,
+      "output_tokens": 174
+    }
+  }
+}

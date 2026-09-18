@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-022",
+    "ask": "Update the PetID epic PRD with risks, dependencies, and a rollout plan section.",
+    "gold_skill": "prd-writing",
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.7466666666666667,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.98,
+      "would_follow_template_workflow": 0.76,
+      "prose_suffices": 0.5
+    },
+    "fits": {
+      "data-analysis": 0.07,
+      "prd-writing": 0.8,
+      "prototyping": 0.04
+    },
+    "which_choice": "prd-writing",
+    "which_probabilities": {
+      "prototyping": 0.0,
+      "prd-writing": 1.0,
+      "data-analysis": 0.0
+    },
+    "which_confidence": 1.0,
+    "pred_skill": "prd-writing",
+    "decision_reason": "choice_winner"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "prd-writing",
+        "confidence": 1.0,
+        "probabilities": {
+          "prototyping": 0.0,
+          "prd-writing": 1.0,
+          "data-analysis": 0.0
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.98
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.76
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.5
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.07
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.8
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.04
+      }
+    },
+    "usage": {
+      "input_tokens": 938,
+      "output_tokens": 172
+    }
+  }
+}

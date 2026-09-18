@@ -1,0 +1,1500 @@
+{
+  "model": "jev-latest",
+  "dataset": "datasets/u5_pm_asks.jsonl",
+  "roster": "datasets/u5_skill_roster.json",
+  "n": 48,
+  "gate_threshold": 0.3,
+  "fits_threshold": 0.3,
+  "decision_rule": "gate=mean(oriented gate nouls); if gate<0.30 → null; elif max(fits)<0.30 → null; else winner=Choice which",
+  "results": [
+    {
+      "id": "u5-001",
+      "bucket": "clear",
+      "gold_skill": "data-analysis",
+      "pred_skill": "data-analysis",
+      "gate": 0.8266666666666667,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.97,
+        "would_follow_template_workflow": 0.74,
+        "prose_suffices": 0.23
+      },
+      "fits": {
+        "data-analysis": 0.96,
+        "prd-writing": 0.1,
+        "prototyping": 0.05
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "data-analysis": 1.0,
+        "prototyping": 0.0,
+        "prd-writing": 0.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 943,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-001.json"
+    },
+    {
+      "id": "u5-002",
+      "bucket": "clear",
+      "gold_skill": "data-analysis",
+      "pred_skill": "data-analysis",
+      "gate": 0.8366666666666666,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.96,
+        "would_follow_template_workflow": 0.7,
+        "prose_suffices": 0.15
+      },
+      "fits": {
+        "data-analysis": 0.96,
+        "prd-writing": 0.13,
+        "prototyping": 0.09
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "prototyping": 0.0,
+        "data-analysis": 1.0,
+        "prd-writing": 0.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 944,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-002.json"
+    },
+    {
+      "id": "u5-003",
+      "bucket": "clear",
+      "gold_skill": "data-analysis",
+      "pred_skill": "data-analysis",
+      "gate": 0.8866666666666667,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.98,
+        "would_follow_template_workflow": 0.81,
+        "prose_suffices": 0.13
+      },
+      "fits": {
+        "data-analysis": 0.96,
+        "prd-writing": 0.25,
+        "prototyping": 0.05
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "prd-writing": 0.0,
+        "data-analysis": 1.0,
+        "prototyping": 0.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 938,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-003.json"
+    },
+    {
+      "id": "u5-004",
+      "bucket": "clear",
+      "gold_skill": "data-analysis",
+      "pred_skill": "data-analysis",
+      "gate": 0.8066666666666666,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.97,
+        "would_follow_template_workflow": 0.78,
+        "prose_suffices": 0.33
+      },
+      "fits": {
+        "data-analysis": 0.9,
+        "prd-writing": 0.19,
+        "prototyping": 0.06
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "prd-writing": 0.02,
+        "prototyping": 0.0,
+        "data-analysis": 0.98
+      },
+      "which_confidence": 0.96,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 938,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-004.json"
+    },
+    {
+      "id": "u5-005",
+      "bucket": "clear",
+      "gold_skill": "data-analysis",
+      "pred_skill": "data-analysis",
+      "gate": 0.7633333333333333,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.96,
+        "would_follow_template_workflow": 0.75,
+        "prose_suffices": 0.42
+      },
+      "fits": {
+        "data-analysis": 0.82,
+        "prd-writing": 0.13,
+        "prototyping": 0.05
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "prd-writing": 0.0,
+        "data-analysis": 1.0,
+        "prototyping": 0.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 935,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-005.json"
+    },
+    {
+      "id": "u5-006",
+      "bucket": "clear",
+      "gold_skill": "data-analysis",
+      "pred_skill": "data-analysis",
+      "gate": 0.7266666666666667,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.93,
+        "would_follow_template_workflow": 0.7,
+        "prose_suffices": 0.45
+      },
+      "fits": {
+        "data-analysis": 0.9,
+        "prd-writing": 0.03,
+        "prototyping": 0.02
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "prototyping": 0.0,
+        "prd-writing": 0.0,
+        "data-analysis": 1.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 941,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-006.json"
+    },
+    {
+      "id": "u5-007",
+      "bucket": "clear",
+      "gold_skill": "data-analysis",
+      "pred_skill": "data-analysis",
+      "gate": 0.7533333333333333,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.92,
+        "would_follow_template_workflow": 0.68,
+        "prose_suffices": 0.34
+      },
+      "fits": {
+        "data-analysis": 0.9,
+        "prd-writing": 0.08,
+        "prototyping": 0.03
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "prototyping": 0.0,
+        "prd-writing": 0.0,
+        "data-analysis": 1.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 936,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-007.json"
+    },
+    {
+      "id": "u5-008",
+      "bucket": "clear",
+      "gold_skill": "data-analysis",
+      "pred_skill": "data-analysis",
+      "gate": 0.8266666666666667,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.98,
+        "would_follow_template_workflow": 0.78,
+        "prose_suffices": 0.28
+      },
+      "fits": {
+        "data-analysis": 0.93,
+        "prd-writing": 0.48,
+        "prototyping": 0.04
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "prototyping": 0.0,
+        "prd-writing": 0.0,
+        "data-analysis": 1.0
+      },
+      "which_confidence": 0.99,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 943,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-008.json"
+    },
+    {
+      "id": "u5-009",
+      "bucket": "clear",
+      "gold_skill": "data-analysis",
+      "pred_skill": "data-analysis",
+      "gate": 0.6433333333333334,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.89,
+        "would_follow_template_workflow": 0.75,
+        "prose_suffices": 0.71
+      },
+      "fits": {
+        "data-analysis": 0.59,
+        "prd-writing": 0.19,
+        "prototyping": 0.1
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "prd-writing": 0.13,
+        "prototyping": 0.01,
+        "data-analysis": 0.86
+      },
+      "which_confidence": 0.8,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 941,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-009.json"
+    },
+    {
+      "id": "u5-010",
+      "bucket": "clear",
+      "gold_skill": "data-analysis",
+      "pred_skill": "data-analysis",
+      "gate": 0.7833333333333333,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.94,
+        "would_follow_template_workflow": 0.77,
+        "prose_suffices": 0.36
+      },
+      "fits": {
+        "data-analysis": 0.85,
+        "prd-writing": 0.29,
+        "prototyping": 0.09
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "prototyping": 0.0,
+        "prd-writing": 0.01,
+        "data-analysis": 0.99
+      },
+      "which_confidence": 0.99,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 936,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-010.json"
+    },
+    {
+      "id": "u5-011",
+      "bucket": "clear",
+      "gold_skill": "data-analysis",
+      "pred_skill": "data-analysis",
+      "gate": 0.8000000000000002,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.93,
+        "would_follow_template_workflow": 0.67,
+        "prose_suffices": 0.2
+      },
+      "fits": {
+        "data-analysis": 0.82,
+        "prd-writing": 0.11,
+        "prototyping": 0.03
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "prd-writing": 0.0,
+        "data-analysis": 1.0,
+        "prototyping": 0.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 941,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-011.json"
+    },
+    {
+      "id": "u5-012",
+      "bucket": "clear",
+      "gold_skill": "data-analysis",
+      "pred_skill": "data-analysis",
+      "gate": 0.8033333333333333,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.91,
+        "would_follow_template_workflow": 0.77,
+        "prose_suffices": 0.27
+      },
+      "fits": {
+        "data-analysis": 0.94,
+        "prd-writing": 0.45,
+        "prototyping": 0.42
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "prototyping": 0.0,
+        "prd-writing": 0.0,
+        "data-analysis": 1.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 940,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-012.json"
+    },
+    {
+      "id": "u5-013",
+      "bucket": "clear",
+      "gold_skill": "prd-writing",
+      "pred_skill": "prd-writing",
+      "gate": 0.84,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.99,
+        "would_follow_template_workflow": 0.82,
+        "prose_suffices": 0.29
+      },
+      "fits": {
+        "data-analysis": 0.11,
+        "prd-writing": 0.97,
+        "prototyping": 0.07
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "data-analysis": 0.0,
+        "prototyping": 0.0,
+        "prd-writing": 1.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 947,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-013.json"
+    },
+    {
+      "id": "u5-014",
+      "bucket": "clear",
+      "gold_skill": "prd-writing",
+      "pred_skill": "prd-writing",
+      "gate": 0.7833333333333333,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.98,
+        "would_follow_template_workflow": 0.77,
+        "prose_suffices": 0.4
+      },
+      "fits": {
+        "data-analysis": 0.21,
+        "prd-writing": 0.95,
+        "prototyping": 0.08
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "prd-writing": 1.0,
+        "prototyping": 0.0,
+        "data-analysis": 0.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 942,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-014.json"
+    },
+    {
+      "id": "u5-015",
+      "bucket": "clear",
+      "gold_skill": "prd-writing",
+      "pred_skill": "prd-writing",
+      "gate": 0.7266666666666666,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.95,
+        "would_follow_template_workflow": 0.75,
+        "prose_suffices": 0.52
+      },
+      "fits": {
+        "data-analysis": 0.04,
+        "prd-writing": 0.69,
+        "prototyping": 0.14
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "prd-writing": 0.99,
+        "prototyping": 0.01,
+        "data-analysis": 0.0
+      },
+      "which_confidence": 0.98,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 945,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-015.json"
+    },
+    {
+      "id": "u5-016",
+      "bucket": "clear",
+      "gold_skill": "prd-writing",
+      "pred_skill": "prd-writing",
+      "gate": 0.6866666666666666,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.97,
+        "would_follow_template_workflow": 0.63,
+        "prose_suffices": 0.54
+      },
+      "fits": {
+        "data-analysis": 0.18,
+        "prd-writing": 0.62,
+        "prototyping": 0.1
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "prd-writing": 1.0,
+        "data-analysis": 0.0,
+        "prototyping": 0.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 943,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-016.json"
+    },
+    {
+      "id": "u5-017",
+      "bucket": "clear",
+      "gold_skill": "prd-writing",
+      "pred_skill": "prd-writing",
+      "gate": 0.6533333333333333,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.81,
+        "would_follow_template_workflow": 0.78,
+        "prose_suffices": 0.63
+      },
+      "fits": {
+        "data-analysis": 0.13,
+        "prd-writing": 0.83,
+        "prototyping": 0.08
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "prd-writing": 0.94,
+        "data-analysis": 0.06,
+        "prototyping": 0.0
+      },
+      "which_confidence": 0.91,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 942,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-017.json"
+    },
+    {
+      "id": "u5-018",
+      "bucket": "clear",
+      "gold_skill": "prd-writing",
+      "pred_skill": "prd-writing",
+      "gate": 0.8466666666666667,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.97,
+        "would_follow_template_workflow": 0.77,
+        "prose_suffices": 0.2
+      },
+      "fits": {
+        "data-analysis": 0.29,
+        "prd-writing": 0.94,
+        "prototyping": 0.11
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "prototyping": 0.0,
+        "prd-writing": 1.0,
+        "data-analysis": 0.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 943,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-018.json"
+    },
+    {
+      "id": "u5-019",
+      "bucket": "clear",
+      "gold_skill": "prd-writing",
+      "pred_skill": "prd-writing",
+      "gate": 0.77,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.98,
+        "would_follow_template_workflow": 0.73,
+        "prose_suffices": 0.4
+      },
+      "fits": {
+        "data-analysis": 0.07,
+        "prd-writing": 0.81,
+        "prototyping": 0.07
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "data-analysis": 0.0,
+        "prototyping": 0.0,
+        "prd-writing": 1.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 945,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-019.json"
+    },
+    {
+      "id": "u5-020",
+      "bucket": "clear",
+      "gold_skill": "prd-writing",
+      "pred_skill": "prd-writing",
+      "gate": 0.7366666666666667,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.98,
+        "would_follow_template_workflow": 0.72,
+        "prose_suffices": 0.49
+      },
+      "fits": {
+        "data-analysis": 0.32,
+        "prd-writing": 0.72,
+        "prototyping": 0.08
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "prd-writing": 0.88,
+        "prototyping": 0.0,
+        "data-analysis": 0.12
+      },
+      "which_confidence": 0.82,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 943,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-020.json"
+    },
+    {
+      "id": "u5-021",
+      "bucket": "clear",
+      "gold_skill": "prd-writing",
+      "pred_skill": "prd-writing",
+      "gate": 0.7799999999999999,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.97,
+        "would_follow_template_workflow": 0.74,
+        "prose_suffices": 0.37
+      },
+      "fits": {
+        "data-analysis": 0.11,
+        "prd-writing": 0.83,
+        "prototyping": 0.06
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "prototyping": 0.0,
+        "prd-writing": 1.0,
+        "data-analysis": 0.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 941,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-021.json"
+    },
+    {
+      "id": "u5-022",
+      "bucket": "clear",
+      "gold_skill": "prd-writing",
+      "pred_skill": "prd-writing",
+      "gate": 0.7466666666666667,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.98,
+        "would_follow_template_workflow": 0.76,
+        "prose_suffices": 0.5
+      },
+      "fits": {
+        "data-analysis": 0.07,
+        "prd-writing": 0.8,
+        "prototyping": 0.04
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "prototyping": 0.0,
+        "prd-writing": 1.0,
+        "data-analysis": 0.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 938,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-022.json"
+    },
+    {
+      "id": "u5-023",
+      "bucket": "ambiguous",
+      "gold_skill": "prd-writing",
+      "pred_skill": "prd-writing",
+      "gate": 0.8233333333333333,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.98,
+        "would_follow_template_workflow": 0.79,
+        "prose_suffices": 0.3
+      },
+      "fits": {
+        "data-analysis": 0.25,
+        "prd-writing": 0.95,
+        "prototyping": 0.06
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "prototyping": 0.0,
+        "data-analysis": 0.0,
+        "prd-writing": 1.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 938,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-023.json"
+    },
+    {
+      "id": "u5-024",
+      "bucket": "clear",
+      "gold_skill": "prototyping",
+      "pred_skill": "prototyping",
+      "gate": 0.8266666666666667,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.98,
+        "would_follow_template_workflow": 0.79,
+        "prose_suffices": 0.29
+      },
+      "fits": {
+        "data-analysis": 0.03,
+        "prd-writing": 0.07,
+        "prototyping": 0.97
+      },
+      "which_choice": "prototyping",
+      "which_probabilities": {
+        "data-analysis": 0.0,
+        "prototyping": 1.0,
+        "prd-writing": 0.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 947,
+        "output_tokens": 174
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-024.json"
+    },
+    {
+      "id": "u5-025",
+      "bucket": "clear",
+      "gold_skill": "prototyping",
+      "pred_skill": "prototyping",
+      "gate": 0.8033333333333333,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.97,
+        "would_follow_template_workflow": 0.8,
+        "prose_suffices": 0.36
+      },
+      "fits": {
+        "data-analysis": 0.02,
+        "prd-writing": 0.06,
+        "prototyping": 0.96
+      },
+      "which_choice": "prototyping",
+      "which_probabilities": {
+        "prd-writing": 0.0,
+        "data-analysis": 0.0,
+        "prototyping": 1.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 939,
+        "output_tokens": 174
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-025.json"
+    },
+    {
+      "id": "u5-026",
+      "bucket": "clear",
+      "gold_skill": "prototyping",
+      "pred_skill": "prototyping",
+      "gate": 0.52,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.37,
+        "would_follow_template_workflow": 0.76,
+        "prose_suffices": 0.57
+      },
+      "fits": {
+        "data-analysis": 0.02,
+        "prd-writing": 0.06,
+        "prototyping": 0.71
+      },
+      "which_choice": "prototyping",
+      "which_probabilities": {
+        "data-analysis": 0.0,
+        "prd-writing": 0.04,
+        "prototyping": 0.96
+      },
+      "which_confidence": 0.94,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 936,
+        "output_tokens": 174
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-026.json"
+    },
+    {
+      "id": "u5-027",
+      "bucket": "clear",
+      "gold_skill": "prototyping",
+      "pred_skill": "prototyping",
+      "gate": 0.7233333333333333,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.8,
+        "would_follow_template_workflow": 0.76,
+        "prose_suffices": 0.39
+      },
+      "fits": {
+        "data-analysis": 0.02,
+        "prd-writing": 0.04,
+        "prototyping": 0.93
+      },
+      "which_choice": "prototyping",
+      "which_probabilities": {
+        "prototyping": 1.0,
+        "prd-writing": 0.0,
+        "data-analysis": 0.0
+      },
+      "which_confidence": 0.99,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 940,
+        "output_tokens": 174
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-027.json"
+    },
+    {
+      "id": "u5-028",
+      "bucket": "clear",
+      "gold_skill": "prototyping",
+      "pred_skill": "prototyping",
+      "gate": 0.8633333333333333,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.98,
+        "would_follow_template_workflow": 0.77,
+        "prose_suffices": 0.16
+      },
+      "fits": {
+        "data-analysis": 0.04,
+        "prd-writing": 0.09,
+        "prototyping": 0.97
+      },
+      "which_choice": "prototyping",
+      "which_probabilities": {
+        "prototyping": 1.0,
+        "data-analysis": 0.0,
+        "prd-writing": 0.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 941,
+        "output_tokens": 174
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-028.json"
+    },
+    {
+      "id": "u5-029",
+      "bucket": "clear",
+      "gold_skill": "prototyping",
+      "pred_skill": "prototyping",
+      "gate": 0.82,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.98,
+        "would_follow_template_workflow": 0.75,
+        "prose_suffices": 0.27
+      },
+      "fits": {
+        "data-analysis": 0.02,
+        "prd-writing": 0.04,
+        "prototyping": 0.81
+      },
+      "which_choice": "prototyping",
+      "which_probabilities": {
+        "prd-writing": 0.0,
+        "prototyping": 1.0,
+        "data-analysis": 0.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 951,
+        "output_tokens": 174
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-029.json"
+    },
+    {
+      "id": "u5-030",
+      "bucket": "clear",
+      "gold_skill": "prototyping",
+      "pred_skill": "prototyping",
+      "gate": 0.8466666666666667,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.97,
+        "would_follow_template_workflow": 0.78,
+        "prose_suffices": 0.21
+      },
+      "fits": {
+        "data-analysis": 0.17,
+        "prd-writing": 0.17,
+        "prototyping": 0.94
+      },
+      "which_choice": "prototyping",
+      "which_probabilities": {
+        "prototyping": 0.99,
+        "prd-writing": 0.0,
+        "data-analysis": 0.01
+      },
+      "which_confidence": 0.99,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 940,
+        "output_tokens": 174
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-030.json"
+    },
+    {
+      "id": "u5-031",
+      "bucket": "clear",
+      "gold_skill": "prototyping",
+      "pred_skill": "prototyping",
+      "gate": 0.8300000000000001,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.96,
+        "would_follow_template_workflow": 0.81,
+        "prose_suffices": 0.28
+      },
+      "fits": {
+        "data-analysis": 0.04,
+        "prd-writing": 0.1,
+        "prototyping": 0.84
+      },
+      "which_choice": "prototyping",
+      "which_probabilities": {
+        "prd-writing": 0.05,
+        "data-analysis": 0.0,
+        "prototyping": 0.95
+      },
+      "which_confidence": 0.93,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 942,
+        "output_tokens": 174
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-031.json"
+    },
+    {
+      "id": "u5-032",
+      "bucket": "clear",
+      "gold_skill": "prototyping",
+      "pred_skill": "prototyping",
+      "gate": 0.39333333333333337,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.2,
+        "would_follow_template_workflow": 0.68,
+        "prose_suffices": 0.7
+      },
+      "fits": {
+        "data-analysis": 0.02,
+        "prd-writing": 0.03,
+        "prototyping": 0.46
+      },
+      "which_choice": "prototyping",
+      "which_probabilities": {
+        "data-analysis": 0.0,
+        "prototyping": 0.98,
+        "prd-writing": 0.02
+      },
+      "which_confidence": 0.97,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 941,
+        "output_tokens": 174
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-032.json"
+    },
+    {
+      "id": "u5-033",
+      "bucket": "clear",
+      "gold_skill": "prototyping",
+      "pred_skill": "prototyping",
+      "gate": 0.7999999999999999,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.97,
+        "would_follow_template_workflow": 0.76,
+        "prose_suffices": 0.33
+      },
+      "fits": {
+        "data-analysis": 0.02,
+        "prd-writing": 0.03,
+        "prototyping": 0.96
+      },
+      "which_choice": "prototyping",
+      "which_probabilities": {
+        "prd-writing": 0.0,
+        "prototyping": 1.0,
+        "data-analysis": 0.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 936,
+        "output_tokens": 174
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-033.json"
+    },
+    {
+      "id": "u5-034",
+      "bucket": "ambiguous",
+      "gold_skill": "prd-writing",
+      "pred_skill": "prd-writing",
+      "gate": 0.5866666666666667,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.68,
+        "would_follow_template_workflow": 0.72,
+        "prose_suffices": 0.64
+      },
+      "fits": {
+        "data-analysis": 0.64,
+        "prd-writing": 0.58,
+        "prototyping": 0.13
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "prototyping": 0.0,
+        "prd-writing": 0.6900000000000001,
+        "data-analysis": 0.31
+      },
+      "which_confidence": 0.53,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 943,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-034.json"
+    },
+    {
+      "id": "u5-035",
+      "bucket": "ambiguous",
+      "gold_skill": "prd-writing",
+      "pred_skill": "prd-writing",
+      "gate": 0.7266666666666666,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.97,
+        "would_follow_template_workflow": 0.72,
+        "prose_suffices": 0.51
+      },
+      "fits": {
+        "data-analysis": 0.61,
+        "prd-writing": 0.82,
+        "prototyping": 0.06
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "data-analysis": 0.0,
+        "prototyping": 0.0,
+        "prd-writing": 1.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 941,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-035.json"
+    },
+    {
+      "id": "u5-036",
+      "bucket": "ambiguous",
+      "gold_skill": "prd-writing",
+      "pred_skill": "prd-writing",
+      "gate": 0.77,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.97,
+        "would_follow_template_workflow": 0.76,
+        "prose_suffices": 0.42
+      },
+      "fits": {
+        "data-analysis": 0.52,
+        "prd-writing": 0.69,
+        "prototyping": 0.08
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "prototyping": 0.0,
+        "prd-writing": 0.79,
+        "data-analysis": 0.21
+      },
+      "which_confidence": 0.68,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 938,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-036.json"
+    },
+    {
+      "id": "u5-037",
+      "bucket": "ambiguous",
+      "gold_skill": "data-analysis",
+      "pred_skill": "data-analysis",
+      "gate": 0.6966666666666667,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.85,
+        "would_follow_template_workflow": 0.66,
+        "prose_suffices": 0.42
+      },
+      "fits": {
+        "data-analysis": 0.82,
+        "prd-writing": 0.18,
+        "prototyping": 0.38
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "prd-writing": 0.0,
+        "data-analysis": 1.0,
+        "prototyping": 0.0
+      },
+      "which_confidence": 0.99,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 943,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-037.json"
+    },
+    {
+      "id": "u5-038",
+      "bucket": "ambiguous",
+      "gold_skill": "prototyping",
+      "pred_skill": "prototyping",
+      "gate": 0.8300000000000001,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.98,
+        "would_follow_template_workflow": 0.74,
+        "prose_suffices": 0.23
+      },
+      "fits": {
+        "data-analysis": 0.03,
+        "prd-writing": 0.06,
+        "prototyping": 0.95
+      },
+      "which_choice": "prototyping",
+      "which_probabilities": {
+        "data-analysis": 0.0,
+        "prototyping": 1.0,
+        "prd-writing": 0.0
+      },
+      "which_confidence": 1.0,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 940,
+        "output_tokens": 174
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-038.json"
+    },
+    {
+      "id": "u5-039",
+      "bucket": "uncovered",
+      "gold_skill": null,
+      "pred_skill": null,
+      "gate": 0.20999999999999996,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.13,
+        "would_follow_template_workflow": 0.42,
+        "prose_suffices": 0.92
+      },
+      "fits": {
+        "data-analysis": 0.24,
+        "prd-writing": 0.45,
+        "prototyping": 0.04
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "data-analysis": 0.96,
+        "prototyping": 0.0,
+        "prd-writing": 0.04
+      },
+      "which_confidence": 0.93,
+      "decision_reason": "gate_below",
+      "usage": {
+        "input_tokens": 927,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-039.json"
+    },
+    {
+      "id": "u5-040",
+      "bucket": "uncovered",
+      "gold_skill": null,
+      "pred_skill": null,
+      "gate": 0.3433333333333333,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.2,
+        "would_follow_template_workflow": 0.68,
+        "prose_suffices": 0.85
+      },
+      "fits": {
+        "data-analysis": 0.13,
+        "prd-writing": 0.13,
+        "prototyping": 0.12
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "prototyping": 0.02,
+        "prd-writing": 0.71,
+        "data-analysis": 0.27
+      },
+      "which_confidence": 0.56,
+      "decision_reason": "fits_below",
+      "usage": {
+        "input_tokens": 921,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-040.json"
+    },
+    {
+      "id": "u5-041",
+      "bucket": "uncovered",
+      "gold_skill": null,
+      "pred_skill": null,
+      "gate": 0.27,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.05,
+        "would_follow_template_workflow": 0.64,
+        "prose_suffices": 0.88
+      },
+      "fits": {
+        "data-analysis": 0.02,
+        "prd-writing": 0.02,
+        "prototyping": 0.02
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "data-analysis": 0.18,
+        "prd-writing": 0.8,
+        "prototyping": 0.02
+      },
+      "which_confidence": 0.69,
+      "decision_reason": "gate_below",
+      "usage": {
+        "input_tokens": 941,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-041.json"
+    },
+    {
+      "id": "u5-042",
+      "bucket": "uncovered",
+      "gold_skill": null,
+      "pred_skill": null,
+      "gate": 0.22666666666666668,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.1,
+        "would_follow_template_workflow": 0.52,
+        "prose_suffices": 0.94
+      },
+      "fits": {
+        "data-analysis": 0.02,
+        "prd-writing": 0.02,
+        "prototyping": 0.01
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "prototyping": 0.38,
+        "data-analysis": 0.55,
+        "prd-writing": 0.07
+      },
+      "which_confidence": 0.32,
+      "decision_reason": "gate_below",
+      "usage": {
+        "input_tokens": 934,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-042.json"
+    },
+    {
+      "id": "u5-043",
+      "bucket": "uncovered",
+      "gold_skill": null,
+      "pred_skill": null,
+      "gate": 0.13999999999999999,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.07,
+        "would_follow_template_workflow": 0.28,
+        "prose_suffices": 0.93
+      },
+      "fits": {
+        "data-analysis": 0.22,
+        "prd-writing": 0.24,
+        "prototyping": 0.04
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "data-analysis": 0.88,
+        "prototyping": 0.0,
+        "prd-writing": 0.12
+      },
+      "which_confidence": 0.82,
+      "decision_reason": "gate_below",
+      "usage": {
+        "input_tokens": 933,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-043.json"
+    },
+    {
+      "id": "u5-044",
+      "bucket": "uncovered",
+      "gold_skill": null,
+      "pred_skill": null,
+      "gate": 0.2233333333333333,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.07,
+        "would_follow_template_workflow": 0.48,
+        "prose_suffices": 0.88
+      },
+      "fits": {
+        "data-analysis": 0.04,
+        "prd-writing": 0.02,
+        "prototyping": 0.02
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "prd-writing": 0.05,
+        "prototyping": 0.04,
+        "data-analysis": 0.91
+      },
+      "which_confidence": 0.86,
+      "decision_reason": "gate_below",
+      "usage": {
+        "input_tokens": 930,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-044.json"
+    },
+    {
+      "id": "u5-045",
+      "bucket": "uncovered",
+      "gold_skill": null,
+      "pred_skill": null,
+      "gate": 0.24333333333333332,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.12,
+        "would_follow_template_workflow": 0.57,
+        "prose_suffices": 0.96
+      },
+      "fits": {
+        "data-analysis": 0.03,
+        "prd-writing": 0.02,
+        "prototyping": 0.03
+      },
+      "which_choice": "prd-writing",
+      "which_probabilities": {
+        "data-analysis": 0.22,
+        "prototyping": 0.09,
+        "prd-writing": 0.69
+      },
+      "which_confidence": 0.54,
+      "decision_reason": "gate_below",
+      "usage": {
+        "input_tokens": 945,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-045.json"
+    },
+    {
+      "id": "u5-046",
+      "bucket": "uncovered",
+      "gold_skill": null,
+      "pred_skill": null,
+      "gate": 0.21333333333333335,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.09,
+        "would_follow_template_workflow": 0.46,
+        "prose_suffices": 0.91
+      },
+      "fits": {
+        "data-analysis": 0.15,
+        "prd-writing": 0.2,
+        "prototyping": 0.04
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "prototyping": 0.0,
+        "data-analysis": 0.57,
+        "prd-writing": 0.43
+      },
+      "which_confidence": 0.35,
+      "decision_reason": "gate_below",
+      "usage": {
+        "input_tokens": 936,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-046.json"
+    },
+    {
+      "id": "u5-047",
+      "bucket": "uncovered",
+      "gold_skill": null,
+      "pred_skill": "data-analysis",
+      "gate": 0.38999999999999996,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.62,
+        "would_follow_template_workflow": 0.42,
+        "prose_suffices": 0.87
+      },
+      "fits": {
+        "data-analysis": 0.3,
+        "prd-writing": 0.05,
+        "prototyping": 0.02
+      },
+      "which_choice": "data-analysis",
+      "which_probabilities": {
+        "prototyping": 0.0,
+        "prd-writing": 0.05,
+        "data-analysis": 0.95
+      },
+      "which_confidence": 0.93,
+      "decision_reason": "choice_winner",
+      "usage": {
+        "input_tokens": 942,
+        "output_tokens": 172
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-047.json"
+    },
+    {
+      "id": "u5-048",
+      "bucket": "uncovered",
+      "gold_skill": null,
+      "pred_skill": null,
+      "gate": 0.17333333333333334,
+      "gate_values": {
+        "acts_on_product_artifacts": 0.05,
+        "would_follow_template_workflow": 0.42,
+        "prose_suffices": 0.95
+      },
+      "fits": {
+        "data-analysis": 0.02,
+        "prd-writing": 0.02,
+        "prototyping": 0.02
+      },
+      "which_choice": "prototyping",
+      "which_probabilities": {
+        "prototyping": 0.84,
+        "data-analysis": 0.08,
+        "prd-writing": 0.08
+      },
+      "which_confidence": 0.76,
+      "decision_reason": "gate_below",
+      "usage": {
+        "input_tokens": 931,
+        "output_tokens": 174
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/U5/raw/u5-048.json"
+    }
+  ],
+  "failures": []
+}

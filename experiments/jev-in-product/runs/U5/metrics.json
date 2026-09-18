@@ -1,0 +1,58 @@
+{
+  "n": 48,
+  "failures": 0,
+  "n_covered": 38,
+  "n_uncovered": 10,
+  "wrong_route_count": 0,
+  "wrong_route_rate": 0.0,
+  "needless_route_count": 1,
+  "needless_route_rate": 0.1,
+  "accuracy": 0.9791666666666666,
+  "exact_match": 47,
+  "gate_threshold": 0.3,
+  "fits_threshold": 0.3,
+  "model_resolved": [
+    "jev-1.13.0"
+  ],
+  "confusion": {
+    "data-analysis": {
+      "data-analysis": 13
+    },
+    "prd-writing": {
+      "prd-writing": 14
+    },
+    "prototyping": {
+      "prototyping": 11
+    },
+    "null": {
+      "null": 9,
+      "data-analysis": 1
+    }
+  },
+  "gate_means": {
+    "gold_covered": 0.7601754385964913,
+    "pred_routed": 0.7506837606837607,
+    "gold_null": 0.24333333333333332,
+    "pred_null": 0.22703703703703704
+  },
+  "wrong_ids": [],
+  "needless_ids": [
+    "u5-047"
+  ],
+  "miss_detail": [
+    {
+      "id": "u5-047",
+      "gold": null,
+      "pred": "data-analysis",
+      "gate": 0.38999999999999996,
+      "fits": {
+        "data-analysis": 0.3,
+        "prd-writing": 0.05,
+        "prototyping": 0.02
+      },
+      "which": "data-analysis",
+      "reason": "choice_winner",
+      "bucket": "uncovered"
+    }
+  ]
+}

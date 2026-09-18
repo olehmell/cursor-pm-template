@@ -1,0 +1,20 @@
+[
+  {
+    "name": "data-analysis",
+    "usecase_path": "usecases/01-data-analysis",
+    "description": "Interview + metrics analysis → structured activation insights and recommendations.",
+    "description_full": "Template for analyzing raw product inputs: qualitative interviews plus quantitative metrics. Turn messy data into a decision-ready narrative: identify onboarding/feeding-plan setup pain points from interviews/, validate with metrics/, and produce an activation insights report (Value Proposition Canvas, ranked recommendations) under artifacts/. Prefer evidence with direct quotes and specific data points; use Python/Pandas for large CSVs."
+  },
+  {
+    "name": "prd-writing",
+    "usecase_path": "usecases/02-prd-writing",
+    "description": "Write and review PRDs with Lenny-style templates, Mermaid diagrams, and stakeholder reviewers.",
+    "description_full": "Template for turning a feature idea into a high-quality PRD: answer socratic questions first, draft with templates/Lennys-PRD-Template.md (and KYIV prioritization), add Mermaid user/system flows, then iterate with reviewer personas (executive, engineer, user-researcher). Align success metrics with COMPANY/PRODUCT (activation, retention, North Star). Save drafts under artifacts/."
+  },
+  {
+    "name": "prototyping",
+    "usecase_path": "usecases/03-prototyping",
+    "description": "Build an interactive React/TypeScript/Tailwind prototype to validate a product hypothesis.",
+    "description_full": "Interactive mobile-framed React + TypeScript + Tailwind (Vite) prototype for hypothesis validation (e.g. PetID digital vet passport upload flow). Implements key screens (onboarding upload, preview, progress, success, gallery, viewer, delete), runnable via yarn dev, optimized for user testing metrics (upload completion, skip rate, feedback). Ask about PRD if none provided; keep UI clean/polished and responsive."
+  }
+]

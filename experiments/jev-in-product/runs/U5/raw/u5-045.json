@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-045",
+    "ask": "Translate this Ukrainian sentence to English: 'Я забуваю коли давати таблетки'.",
+    "gold_skill": null,
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.24333333333333332,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.12,
+      "would_follow_template_workflow": 0.57,
+      "prose_suffices": 0.96
+    },
+    "fits": {
+      "data-analysis": 0.03,
+      "prd-writing": 0.02,
+      "prototyping": 0.03
+    },
+    "which_choice": "prd-writing",
+    "which_probabilities": {
+      "data-analysis": 0.22,
+      "prototyping": 0.09,
+      "prd-writing": 0.69
+    },
+    "which_confidence": 0.54,
+    "pred_skill": null,
+    "decision_reason": "gate_below"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "prd-writing",
+        "confidence": 0.54,
+        "probabilities": {
+          "data-analysis": 0.22,
+          "prototyping": 0.09,
+          "prd-writing": 0.69
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.12
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.57
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.96
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.03
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.02
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.03
+      }
+    },
+    "usage": {
+      "input_tokens": 945,
+      "output_tokens": 172
+    }
+  }
+}

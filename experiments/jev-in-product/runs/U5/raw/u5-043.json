@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-043",
+    "ask": "Explain the difference between activation and retention in general product management.",
+    "gold_skill": null,
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.13999999999999999,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.07,
+      "would_follow_template_workflow": 0.28,
+      "prose_suffices": 0.93
+    },
+    "fits": {
+      "data-analysis": 0.22,
+      "prd-writing": 0.24,
+      "prototyping": 0.04
+    },
+    "which_choice": "data-analysis",
+    "which_probabilities": {
+      "data-analysis": 0.88,
+      "prototyping": 0.0,
+      "prd-writing": 0.12
+    },
+    "which_confidence": 0.82,
+    "pred_skill": null,
+    "decision_reason": "gate_below"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "data-analysis",
+        "confidence": 0.82,
+        "probabilities": {
+          "data-analysis": 0.88,
+          "prototyping": 0.0,
+          "prd-writing": 0.12
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.07
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.28
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.93
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.22
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.24
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.04
+      }
+    },
+    "usage": {
+      "input_tokens": 933,
+      "output_tokens": 172
+    }
+  }
+}

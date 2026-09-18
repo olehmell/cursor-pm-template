@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-040",
+    "ask": "hello",
+    "gold_skill": null,
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.3433333333333333,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.2,
+      "would_follow_template_workflow": 0.68,
+      "prose_suffices": 0.85
+    },
+    "fits": {
+      "data-analysis": 0.13,
+      "prd-writing": 0.13,
+      "prototyping": 0.12
+    },
+    "which_choice": "prd-writing",
+    "which_probabilities": {
+      "prototyping": 0.02,
+      "prd-writing": 0.71,
+      "data-analysis": 0.27
+    },
+    "which_confidence": 0.56,
+    "pred_skill": null,
+    "decision_reason": "fits_below"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "prd-writing",
+        "confidence": 0.56,
+        "probabilities": {
+          "prototyping": 0.02,
+          "prd-writing": 0.71,
+          "data-analysis": 0.27
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.2
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.68
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.85
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.13
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.13
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.12
+      }
+    },
+    "usage": {
+      "input_tokens": 921,
+      "output_tokens": 172
+    }
+  }
+}

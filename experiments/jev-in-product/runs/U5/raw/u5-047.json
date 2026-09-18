@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-047",
+    "ask": "Draft an email to the CEO summarizing last quarter — not a PRD, just a status note.",
+    "gold_skill": null,
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.38999999999999996,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.62,
+      "would_follow_template_workflow": 0.42,
+      "prose_suffices": 0.87
+    },
+    "fits": {
+      "data-analysis": 0.3,
+      "prd-writing": 0.05,
+      "prototyping": 0.02
+    },
+    "which_choice": "data-analysis",
+    "which_probabilities": {
+      "prototyping": 0.0,
+      "prd-writing": 0.05,
+      "data-analysis": 0.95
+    },
+    "which_confidence": 0.93,
+    "pred_skill": "data-analysis",
+    "decision_reason": "choice_winner"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "data-analysis",
+        "confidence": 0.93,
+        "probabilities": {
+          "prototyping": 0.0,
+          "prd-writing": 0.05,
+          "data-analysis": 0.95
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.62
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.42
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.87
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.3
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.05
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.02
+      }
+    },
+    "usage": {
+      "input_tokens": 942,
+      "output_tokens": 172
+    }
+  }
+}

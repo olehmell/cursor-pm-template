@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-033",
+    "ask": "Make the upload success animation and then navigate to PetID Gallery in the prototype.",
+    "gold_skill": "prototyping",
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.7999999999999999,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.97,
+      "would_follow_template_workflow": 0.76,
+      "prose_suffices": 0.33
+    },
+    "fits": {
+      "data-analysis": 0.02,
+      "prd-writing": 0.03,
+      "prototyping": 0.96
+    },
+    "which_choice": "prototyping",
+    "which_probabilities": {
+      "prd-writing": 0.0,
+      "prototyping": 1.0,
+      "data-analysis": 0.0
+    },
+    "which_confidence": 1.0,
+    "pred_skill": "prototyping",
+    "decision_reason": "choice_winner"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "prototyping",
+        "confidence": 1.0,
+        "probabilities": {
+          "prd-writing": 0.0,
+          "prototyping": 1.0,
+          "data-analysis": 0.0
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.97
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.76
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.33
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.02
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.03
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.96
+      }
+    },
+    "usage": {
+      "input_tokens": 936,
+      "output_tokens": 174
+    }
+  }
+}

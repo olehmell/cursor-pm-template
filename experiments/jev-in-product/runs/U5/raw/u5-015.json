@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-015",
+    "ask": "Add a Mermaid user-flow diagram to the User Flow section: scan → fetch → ingredient analysis → save to pet profile.",
+    "gold_skill": "prd-writing",
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.7266666666666666,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.95,
+      "would_follow_template_workflow": 0.75,
+      "prose_suffices": 0.52
+    },
+    "fits": {
+      "data-analysis": 0.04,
+      "prd-writing": 0.69,
+      "prototyping": 0.14
+    },
+    "which_choice": "prd-writing",
+    "which_probabilities": {
+      "prd-writing": 0.99,
+      "prototyping": 0.01,
+      "data-analysis": 0.0
+    },
+    "which_confidence": 0.98,
+    "pred_skill": "prd-writing",
+    "decision_reason": "choice_winner"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "prd-writing",
+        "confidence": 0.98,
+        "probabilities": {
+          "prd-writing": 0.99,
+          "prototyping": 0.01,
+          "data-analysis": 0.0
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.95
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.75
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.52
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.04
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.69
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.14
+      }
+    },
+    "usage": {
+      "input_tokens": 945,
+      "output_tokens": 172
+    }
+  }
+}

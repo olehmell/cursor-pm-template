@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-018",
+    "ask": "Prioritize Q1 features with the KYIV framework and turn the winner into a scoped MVP PRD.",
+    "gold_skill": "prd-writing",
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.8466666666666667,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.97,
+      "would_follow_template_workflow": 0.77,
+      "prose_suffices": 0.2
+    },
+    "fits": {
+      "data-analysis": 0.29,
+      "prd-writing": 0.94,
+      "prototyping": 0.11
+    },
+    "which_choice": "prd-writing",
+    "which_probabilities": {
+      "prototyping": 0.0,
+      "prd-writing": 1.0,
+      "data-analysis": 0.0
+    },
+    "which_confidence": 1.0,
+    "pred_skill": "prd-writing",
+    "decision_reason": "choice_winner"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "prd-writing",
+        "confidence": 1.0,
+        "probabilities": {
+          "prototyping": 0.0,
+          "prd-writing": 1.0,
+          "data-analysis": 0.0
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.97
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.77
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.2
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.29
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.94
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.11
+      }
+    },
+    "usage": {
+      "input_tokens": 943,
+      "output_tokens": 172
+    }
+  }
+}

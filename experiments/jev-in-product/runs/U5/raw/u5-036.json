@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-036",
+    "ask": "After analyzing activation drop-off, write the Goals and Non-goals for an MVP fix.",
+    "gold_skill": "prd-writing",
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.77,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.97,
+      "would_follow_template_workflow": 0.76,
+      "prose_suffices": 0.42
+    },
+    "fits": {
+      "data-analysis": 0.52,
+      "prd-writing": 0.69,
+      "prototyping": 0.08
+    },
+    "which_choice": "prd-writing",
+    "which_probabilities": {
+      "prototyping": 0.0,
+      "prd-writing": 0.79,
+      "data-analysis": 0.21
+    },
+    "which_confidence": 0.68,
+    "pred_skill": "prd-writing",
+    "decision_reason": "choice_winner"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "prd-writing",
+        "confidence": 0.68,
+        "probabilities": {
+          "prototyping": 0.0,
+          "prd-writing": 0.79,
+          "data-analysis": 0.21
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.97
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.76
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.42
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.52
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.69
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.08
+      }
+    },
+    "usage": {
+      "input_tokens": 938,
+      "output_tokens": 172
+    }
+  }
+}

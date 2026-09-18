@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-035",
+    "ask": "Synthesize interview pain points into problem/solution bullets suitable for a PRD Problem section.",
+    "gold_skill": "prd-writing",
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.7266666666666666,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.97,
+      "would_follow_template_workflow": 0.72,
+      "prose_suffices": 0.51
+    },
+    "fits": {
+      "data-analysis": 0.61,
+      "prd-writing": 0.82,
+      "prototyping": 0.06
+    },
+    "which_choice": "prd-writing",
+    "which_probabilities": {
+      "data-analysis": 0.0,
+      "prototyping": 0.0,
+      "prd-writing": 1.0
+    },
+    "which_confidence": 1.0,
+    "pred_skill": "prd-writing",
+    "decision_reason": "choice_winner"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "prd-writing",
+        "confidence": 1.0,
+        "probabilities": {
+          "data-analysis": 0.0,
+          "prototyping": 0.0,
+          "prd-writing": 1.0
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.97
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.72
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.51
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.61
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.82
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.06
+      }
+    },
+    "usage": {
+      "input_tokens": 941,
+      "output_tokens": 172
+    }
+  }
+}

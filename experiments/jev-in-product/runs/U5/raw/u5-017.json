@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-017",
+    "ask": "Run the socratic-questioning checklist with me before we write the Digital Vet Passport PRD.",
+    "gold_skill": "prd-writing",
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.6533333333333333,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.81,
+      "would_follow_template_workflow": 0.78,
+      "prose_suffices": 0.63
+    },
+    "fits": {
+      "data-analysis": 0.13,
+      "prd-writing": 0.83,
+      "prototyping": 0.08
+    },
+    "which_choice": "prd-writing",
+    "which_probabilities": {
+      "prd-writing": 0.94,
+      "data-analysis": 0.06,
+      "prototyping": 0.0
+    },
+    "which_confidence": 0.91,
+    "pred_skill": "prd-writing",
+    "decision_reason": "choice_winner"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "prd-writing",
+        "confidence": 0.91,
+        "probabilities": {
+          "prd-writing": 0.94,
+          "data-analysis": 0.06,
+          "prototyping": 0.0
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.81
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.78
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.63
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.13
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.83
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.08
+      }
+    },
+    "usage": {
+      "input_tokens": 942,
+      "output_tokens": 172
+    }
+  }
+}

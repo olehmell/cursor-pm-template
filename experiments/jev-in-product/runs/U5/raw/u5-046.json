@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-046",
+    "ask": "Remind me what RICE scoring is and when to use it vs ICE.",
+    "gold_skill": null,
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.21333333333333335,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.09,
+      "would_follow_template_workflow": 0.46,
+      "prose_suffices": 0.91
+    },
+    "fits": {
+      "data-analysis": 0.15,
+      "prd-writing": 0.2,
+      "prototyping": 0.04
+    },
+    "which_choice": "data-analysis",
+    "which_probabilities": {
+      "prototyping": 0.0,
+      "data-analysis": 0.57,
+      "prd-writing": 0.43
+    },
+    "which_confidence": 0.35,
+    "pred_skill": null,
+    "decision_reason": "gate_below"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "data-analysis",
+        "confidence": 0.35,
+        "probabilities": {
+          "prototyping": 0.0,
+          "data-analysis": 0.57,
+          "prd-writing": 0.43
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.09
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.46
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.91
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.15
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.2
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.04
+      }
+    },
+    "usage": {
+      "input_tokens": 936,
+      "output_tokens": 172
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-039",
+    "ask": "What is a North Star metric?",
+    "gold_skill": null,
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.20999999999999996,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.13,
+      "would_follow_template_workflow": 0.42,
+      "prose_suffices": 0.92
+    },
+    "fits": {
+      "data-analysis": 0.24,
+      "prd-writing": 0.45,
+      "prototyping": 0.04
+    },
+    "which_choice": "data-analysis",
+    "which_probabilities": {
+      "data-analysis": 0.96,
+      "prototyping": 0.0,
+      "prd-writing": 0.04
+    },
+    "which_confidence": 0.93,
+    "pred_skill": null,
+    "decision_reason": "gate_below"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "data-analysis",
+        "confidence": 0.93,
+        "probabilities": {
+          "data-analysis": 0.96,
+          "prototyping": 0.0,
+          "prd-writing": 0.04
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.13
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.42
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.92
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.24
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.45
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.04
+      }
+    },
+    "usage": {
+      "input_tokens": 927,
+      "output_tokens": 172
+    }
+  }
+}

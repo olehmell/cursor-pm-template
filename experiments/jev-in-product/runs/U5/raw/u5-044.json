@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-044",
+    "ask": "What’s the weather in Kyiv this weekend?",
+    "gold_skill": null,
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.2233333333333333,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.07,
+      "would_follow_template_workflow": 0.48,
+      "prose_suffices": 0.88
+    },
+    "fits": {
+      "data-analysis": 0.04,
+      "prd-writing": 0.02,
+      "prototyping": 0.02
+    },
+    "which_choice": "data-analysis",
+    "which_probabilities": {
+      "prd-writing": 0.05,
+      "prototyping": 0.04,
+      "data-analysis": 0.91
+    },
+    "which_confidence": 0.86,
+    "pred_skill": null,
+    "decision_reason": "gate_below"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "data-analysis",
+        "confidence": 0.86,
+        "probabilities": {
+          "prd-writing": 0.05,
+          "prototyping": 0.04,
+          "data-analysis": 0.91
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.07
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.48
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.88
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.04
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.02
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.02
+      }
+    },
+    "usage": {
+      "input_tokens": 930,
+      "output_tokens": 172
+    }
+  }
+}

@@ -27,3 +27,8 @@ Goal: design judgments → build/find datasets → run tests → write a **short
 
 Live API: `POST https://api.typesafe.ai/v1/systemone` with `TYPESAFE_API_KEY`.
 Docs: https://docs.typesafe.ai/llms.txt
+
+## U5 — Template skill router
+
+Routes a PM ask to at most one of the three usecase skills (or none). See `protocols/U5-skill-router.md`, `datasets/u5_*`, `runs/U5/`, `paper/DRAFT-U5.md`, `research/REFRAMING.md`.
+

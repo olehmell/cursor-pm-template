@@ -1,5 +1,14 @@
 # Session notes
 
+## 2026-09-19 (loop 6 — U5 Template skill router)
+- Branch: `experiment/jev-product-tasks` only.
+- Implemented U5: 3-skill roster router (one systemone call: Choice `which` + adapted gate nouls + fits::*); decision gate<0.30 or max(fits)<0.30 → null else Choice.
+- Dataset **N=48** (`datasets/u5_pm_asks.jsonl`); gold + `u5_rubric.md` + `u5_skill_roster.json` frozen **before** API.
+- Live Jev `jev-latest` → `jev-1.13.0`: **48/48 ok, 0 failures**. Key length 107 (not printed).
+- Metrics: **wrong_route 0/38 = 0.0%**; **needless_route 1/10 = 10.0%**; accuracy **47/48 = 97.9%**. Sole miss `u5-047` (CEO status email → data-analysis, gate 0.39, fits 0.30).
+- Artifacts: `runs/U5/`, `protocols/U5-skill-router.md`, `paper/DRAFT-U5.md`, `research/REFRAMING.md`, scripts `run_u5_jev.py` / `compute_u5_metrics.py`.
+- Do not push to main.
+
 ## 2026-09-18 (loop 4 — paper consolidated)
 - Branch: `experiment/jev-product-tasks` only.
 - Wrote consolidated short paper `paper/PAPER.md` (~1350 words): Abstract, Intro, Method, E1–E3 tables, Findings, Discussion, Limits, Next steps.

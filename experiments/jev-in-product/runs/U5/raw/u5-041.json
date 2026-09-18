@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-041",
+    "ask": "Can you schedule a 30-minute sync with engineering next Tuesday at 3pm Kyiv time?",
+    "gold_skill": null,
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.27,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.05,
+      "would_follow_template_workflow": 0.64,
+      "prose_suffices": 0.88
+    },
+    "fits": {
+      "data-analysis": 0.02,
+      "prd-writing": 0.02,
+      "prototyping": 0.02
+    },
+    "which_choice": "prd-writing",
+    "which_probabilities": {
+      "data-analysis": 0.18,
+      "prd-writing": 0.8,
+      "prototyping": 0.02
+    },
+    "which_confidence": 0.69,
+    "pred_skill": null,
+    "decision_reason": "gate_below"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "prd-writing",
+        "confidence": 0.69,
+        "probabilities": {
+          "data-analysis": 0.18,
+          "prd-writing": 0.8,
+          "prototyping": 0.02
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.05
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.64
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.88
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.02
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.02
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.02
+      }
+    },
+    "usage": {
+      "input_tokens": 941,
+      "output_tokens": 172
+    }
+  }
+}

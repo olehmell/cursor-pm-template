@@ -1,0 +1,81 @@
+{
+  "request_meta": {
+    "id": "u5-034",
+    "ask": "We need to decide MVP scope for Feeding Plan Setup — should we start from interview themes or draft requirements first?",
+    "gold_skill": "prd-writing",
+    "questions": [
+      "which",
+      "gate::acts_on_product_artifacts",
+      "gate::would_follow_template_workflow",
+      "gate::prose_suffices",
+      "fits::data-analysis",
+      "fits::prd-writing",
+      "fits::prototyping"
+    ]
+  },
+  "decision": {
+    "gate": 0.5866666666666667,
+    "gate_values": {
+      "acts_on_product_artifacts": 0.68,
+      "would_follow_template_workflow": 0.72,
+      "prose_suffices": 0.64
+    },
+    "fits": {
+      "data-analysis": 0.64,
+      "prd-writing": 0.58,
+      "prototyping": 0.13
+    },
+    "which_choice": "prd-writing",
+    "which_probabilities": {
+      "prototyping": 0.0,
+      "prd-writing": 0.6900000000000001,
+      "data-analysis": 0.31
+    },
+    "which_confidence": 0.53,
+    "pred_skill": "prd-writing",
+    "decision_reason": "choice_winner"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "which": {
+        "type": "choice",
+        "choice": "prd-writing",
+        "confidence": 0.53,
+        "probabilities": {
+          "prototyping": 0.0,
+          "prd-writing": 0.6900000000000001,
+          "data-analysis": 0.31
+        }
+      },
+      "gate::acts_on_product_artifacts": {
+        "type": "noul",
+        "noul": 0.68
+      },
+      "gate::would_follow_template_workflow": {
+        "type": "noul",
+        "noul": 0.72
+      },
+      "gate::prose_suffices": {
+        "type": "noul",
+        "noul": 0.64
+      },
+      "fits::data-analysis": {
+        "type": "noul",
+        "noul": 0.64
+      },
+      "fits::prd-writing": {
+        "type": "noul",
+        "noul": 0.58
+      },
+      "fits::prototyping": {
+        "type": "noul",
+        "noul": 0.13
+      }
+    },
+    "usage": {
+      "input_tokens": 943,
+      "output_tokens": 172
+    }
+  }
+}
