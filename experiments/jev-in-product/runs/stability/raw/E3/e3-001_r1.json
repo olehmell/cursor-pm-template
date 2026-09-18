@@ -1,0 +1,40 @@
+{
+  "request_meta": {
+    "id": "e3-001",
+    "exp": "E3",
+    "run": 1,
+    "K": 5,
+    "questions": [
+      "advances_hypothesis",
+      "cta_clarity"
+    ]
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "advances_hypothesis": {
+        "type": "noul",
+        "noul": 0.87
+      },
+      "cta_clarity": {
+        "type": "score",
+        "score": 1.99,
+        "confidence": 0.98,
+        "legend": {
+          "0": "low — vague primary label (Next/Continue/OK), competing equal CTAs, or upload action buried",
+          "1": "medium — primary exists but icon-only, slightly ambiguous, or secondary-styled yet discoverable",
+          "2": "high — one clear primary with action label matching the intended next step; visually dominant"
+        },
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.99
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 691,
+      "output_tokens": 40
+    }
+  }
+}

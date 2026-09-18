@@ -1,0 +1,24 @@
+{
+  "request_meta": {
+    "id": "e2-001",
+    "exp": "E2",
+    "run": 4,
+    "K": 5,
+    "questions": [
+      "mvp_scoped"
+    ]
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "mvp_scoped": {
+        "type": "noul",
+        "noul": 0.89
+      }
+    },
+    "usage": {
+      "input_tokens": 1770,
+      "output_tokens": 23
+    }
+  }
+}

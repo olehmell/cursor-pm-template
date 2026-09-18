@@ -105,6 +105,10 @@ Advances misses are false-negatives on degraded-but-on-path screens (`e3-017` du
 3. Wire high-precision noul gates into Cursor PM skills as optional lint steps (threshold + human override).
 4. Track calibration (Brier / reliability) as N grows; do not ship automated blocking on severity-style scores until exact match improves.
 
+## Stability (reproducibility)
+
+A follow-up **K=5** identical-request study on a stratified subsample (E1=12, E2=10, E3=8; 150 API calls, 0 failures) asks whether answers *repeat*, not whether they match gold. Overall **90%** of items were perfect 5/5 on discrete answers and **93.3%** reached ≥4/5; all **18** noul fields on E2/E3 met documented stable thresholds (range ≤0.10, std ≤0.05). E2 and E3 were **100%** perfect; residual flips are E1 severity near ordinal boundaries (`e1-016`, `e1-024`) plus one low-confidence theme flip (`e1-008`). **Bottom line:** noul product gates look stable enough for optional pre-review lint; E1 severity exact labels do not. Full tables and discussion: [`paper/STABILITY.md`](STABILITY.md), `runs/stability/metrics.md`.
+
 ## Artifacts index
 
 | Experiment | Dataset | Rubric | Runs |

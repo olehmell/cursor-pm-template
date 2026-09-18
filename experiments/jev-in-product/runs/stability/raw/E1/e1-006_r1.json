@@ -1,0 +1,48 @@
+{
+  "request_meta": {
+    "id": "e1-006",
+    "exp": "E1",
+    "run": 1,
+    "K": 5,
+    "questions": [
+      "theme",
+      "activation_severity"
+    ]
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "theme": {
+        "type": "choice",
+        "choice": "setup_friction",
+        "confidence": 0.74,
+        "probabilities": {
+          "trust_data": 0.02,
+          "setup_friction": 0.79,
+          "multi_pet": 0.0,
+          "other": 0.19,
+          "notifications": 0.0
+        }
+      },
+      "activation_severity": {
+        "type": "score",
+        "score": 1.38,
+        "confidence": 0.27,
+        "legend": {
+          "0": "low — mild annoyance; unlikely to stop feeding-plan setup within 7 days",
+          "1": "medium — noticeable friction; may delay setup but a motivated user can finish in a week",
+          "2": "high — strong barrier that plausibly prevents completing feeding-plan setup within 7 days"
+        },
+        "probabilities": {
+          "0": 0.06,
+          "1": 0.51,
+          "2": 0.43
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 784,
+      "output_tokens": 77
+    }
+  }
+}

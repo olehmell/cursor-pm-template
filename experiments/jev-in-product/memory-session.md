@@ -33,3 +33,11 @@
 ## Earlier 2026-09-18
 - Deliverable: datasets + tests + short paper.
 - Git: branch `experiment/jev-product-tasks` only (main reverted).
+
+## 2026-09-18 (loop 5 — stability / reproducibility)
+- Branch: `experiment/jev-product-tasks` only.
+- K=5 identical requests; sample E1=12, E2=10, E3=8 (150 calls). TYPESAFE_API_KEY length 107. **0 API failures, 0 rate-limits.**
+- Aggregate: perfect 5/5 discrete **90%** (27/30); ≥4/5 **93.3%** (28/30); noul stable **100%** (18/18; range≤0.10, std≤0.05).
+- E2 & E3: **100%** perfect. Unstable: E1 severity flips `e1-016`, `e1-024`; theme flip `e1-008` (4/5).
+- Artifacts: `runs/stability/`, `scripts/run_stability_jev.py`, `paper/STABILITY.md` + pointer in `PAPER.md`.
+- Conclusion: noul gates stable enough for optional product lint; E1 severity exact not gate-ready. Do not push to main.

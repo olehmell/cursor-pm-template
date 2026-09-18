@@ -1,0 +1,1387 @@
+{
+  "model": "jev-latest",
+  "K": 5,
+  "sample_sizes": {
+    "E1": 12,
+    "E2": 10,
+    "E3": 8,
+    "total": 30
+  },
+  "sample_ids": {
+    "E1": [
+      "e1-006",
+      "e1-008",
+      "e1-018",
+      "e1-027",
+      "e1-001",
+      "e1-003",
+      "e1-007",
+      "e1-010",
+      "e1-015",
+      "e1-016",
+      "e1-024",
+      "e1-025"
+    ],
+    "E2": [
+      "e2-001",
+      "e2-010",
+      "e2-017",
+      "e2-021",
+      "e2-022",
+      "e2-002",
+      "e2-003",
+      "e2-008",
+      "e2-011",
+      "e2-025"
+    ],
+    "E3": [
+      "e3-001",
+      "e3-006",
+      "e3-008",
+      "e3-009",
+      "e3-013",
+      "e3-015",
+      "e3-017",
+      "e3-019"
+    ]
+  },
+  "api_failure_count": 0,
+  "rate_limit_hits": 0,
+  "thresholds": {
+    "noul_stable_range_le": 0.1,
+    "noul_stable_std_le": 0.05
+  },
+  "aggregate": {
+    "n_items_full_k": 30,
+    "n_items_total": 30,
+    "pct_perfect_5of5": 90.0,
+    "pct_at_least_4of5": 93.3,
+    "n_perfect_5of5": 27,
+    "n_at_least_4of5": 28,
+    "mean_theme_mode_agreement": 0.9833,
+    "mean_severity_mode_agreement": 0.9333,
+    "mean_mvp_mode_agreement": 1.0,
+    "mean_metric_mode_agreement": 1.0,
+    "mean_advances_mode_agreement": 1.0,
+    "mean_cta_mode_agreement": 1.0,
+    "noul_stable_count": 18,
+    "noul_total": 18,
+    "noul_stable_pct": 100.0,
+    "thresholds": {
+      "noul_stable_range_le": 0.1,
+      "noul_stable_std_le": 0.05,
+      "K": 5
+    }
+  },
+  "aggregate_by_exp": {
+    "E1": {
+      "n_items_full_k": 12,
+      "n_items_total": 12,
+      "pct_perfect_5of5": 75.0,
+      "pct_at_least_4of5": 83.3,
+      "n_perfect_5of5": 9,
+      "n_at_least_4of5": 10,
+      "mean_theme_mode_agreement": 0.9833,
+      "mean_severity_mode_agreement": 0.9333,
+      "mean_mvp_mode_agreement": null,
+      "mean_metric_mode_agreement": null,
+      "mean_advances_mode_agreement": null,
+      "mean_cta_mode_agreement": null,
+      "noul_stable_count": 0,
+      "noul_total": 0,
+      "noul_stable_pct": null,
+      "thresholds": {
+        "noul_stable_range_le": 0.1,
+        "noul_stable_std_le": 0.05,
+        "K": 5
+      }
+    },
+    "E2": {
+      "n_items_full_k": 10,
+      "n_items_total": 10,
+      "pct_perfect_5of5": 100.0,
+      "pct_at_least_4of5": 100.0,
+      "n_perfect_5of5": 10,
+      "n_at_least_4of5": 10,
+      "mean_theme_mode_agreement": null,
+      "mean_severity_mode_agreement": null,
+      "mean_mvp_mode_agreement": 1.0,
+      "mean_metric_mode_agreement": 1.0,
+      "mean_advances_mode_agreement": null,
+      "mean_cta_mode_agreement": null,
+      "noul_stable_count": 10,
+      "noul_total": 10,
+      "noul_stable_pct": 100.0,
+      "thresholds": {
+        "noul_stable_range_le": 0.1,
+        "noul_stable_std_le": 0.05,
+        "K": 5
+      }
+    },
+    "E3": {
+      "n_items_full_k": 8,
+      "n_items_total": 8,
+      "pct_perfect_5of5": 100.0,
+      "pct_at_least_4of5": 100.0,
+      "n_perfect_5of5": 8,
+      "n_at_least_4of5": 8,
+      "mean_theme_mode_agreement": null,
+      "mean_severity_mode_agreement": null,
+      "mean_mvp_mode_agreement": null,
+      "mean_metric_mode_agreement": null,
+      "mean_advances_mode_agreement": 1.0,
+      "mean_cta_mode_agreement": 1.0,
+      "noul_stable_count": 8,
+      "noul_total": 8,
+      "noul_stable_pct": 100.0,
+      "thresholds": {
+        "noul_stable_range_le": 0.1,
+        "noul_stable_std_le": 0.05,
+        "K": 5
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "e1-006",
+      "exp": "E1",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "theme": {
+        "mode": "setup_friction",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "setup_friction": 5
+        }
+      },
+      "severity": {
+        "mode": "medium",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "medium": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "theme",
+        "severity"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e1-008",
+      "exp": "E1",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "theme": {
+        "mode": "trust_data",
+        "mode_agreement": 0.8,
+        "unique_count": 2,
+        "n": 5,
+        "counts": {
+          "trust_data": 4,
+          "setup_friction": 1
+        }
+      },
+      "severity": {
+        "mode": "low",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "low": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": false,
+      "at_least_4of5": true,
+      "discrete_mode_count": 4,
+      "discrete_keys": [
+        "theme",
+        "severity"
+      ],
+      "discrete_unique": 2
+    },
+    {
+      "id": "e1-018",
+      "exp": "E1",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "theme": {
+        "mode": "notifications",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "notifications": 5
+        }
+      },
+      "severity": {
+        "mode": "low",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "low": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "theme",
+        "severity"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e1-027",
+      "exp": "E1",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "theme": {
+        "mode": "other",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "other": 5
+        }
+      },
+      "severity": {
+        "mode": "low",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "low": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "theme",
+        "severity"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e1-001",
+      "exp": "E1",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "theme": {
+        "mode": "notifications",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "notifications": 5
+        }
+      },
+      "severity": {
+        "mode": "low",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "low": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "theme",
+        "severity"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e1-003",
+      "exp": "E1",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "theme": {
+        "mode": "multi_pet",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "multi_pet": 5
+        }
+      },
+      "severity": {
+        "mode": "low",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "low": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "theme",
+        "severity"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e1-007",
+      "exp": "E1",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "theme": {
+        "mode": "setup_friction",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "setup_friction": 5
+        }
+      },
+      "severity": {
+        "mode": "medium",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "medium": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "theme",
+        "severity"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e1-010",
+      "exp": "E1",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "theme": {
+        "mode": "other",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "other": 5
+        }
+      },
+      "severity": {
+        "mode": "low",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "low": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "theme",
+        "severity"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e1-015",
+      "exp": "E1",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "theme": {
+        "mode": "trust_data",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "trust_data": 5
+        }
+      },
+      "severity": {
+        "mode": "low",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "low": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "theme",
+        "severity"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e1-016",
+      "exp": "E1",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "theme": {
+        "mode": "setup_friction",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "setup_friction": 5
+        }
+      },
+      "severity": {
+        "mode": "high",
+        "mode_agreement": 0.6,
+        "unique_count": 2,
+        "n": 5,
+        "counts": {
+          "high": 3,
+          "medium": 2
+        },
+        "frac_exact": 0.6,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.3
+      },
+      "perfect_5of5": false,
+      "at_least_4of5": false,
+      "discrete_mode_count": 3,
+      "discrete_keys": [
+        "theme",
+        "severity"
+      ],
+      "discrete_unique": 2
+    },
+    {
+      "id": "e1-024",
+      "exp": "E1",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "theme": {
+        "mode": "trust_data",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "trust_data": 5
+        }
+      },
+      "severity": {
+        "mode": "high",
+        "mode_agreement": 0.6,
+        "unique_count": 2,
+        "n": 5,
+        "counts": {
+          "medium": 2,
+          "high": 3
+        },
+        "frac_exact": 0.6,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.3
+      },
+      "perfect_5of5": false,
+      "at_least_4of5": false,
+      "discrete_mode_count": 3,
+      "discrete_keys": [
+        "theme",
+        "severity"
+      ],
+      "discrete_unique": 2
+    },
+    {
+      "id": "e1-025",
+      "exp": "E1",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "theme": {
+        "mode": "notifications",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "notifications": 5
+        }
+      },
+      "severity": {
+        "mode": "low",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "low": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "theme",
+        "severity"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e2-001",
+      "exp": "E2",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "mvp_scoped": {
+        "mode": 1,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "1": 5
+        }
+      },
+      "mvp_scoped_noul": {
+        "mean": 0.896,
+        "std": 0.008944,
+        "range": 0.02,
+        "min": 0.89,
+        "max": 0.91,
+        "values": [
+          0.89,
+          0.91,
+          0.89,
+          0.89,
+          0.9
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "mvp_scoped"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e2-010",
+      "exp": "E2",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "mvp_scoped": {
+        "mode": 0,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "0": 5
+        }
+      },
+      "mvp_scoped_noul": {
+        "mean": 0.086,
+        "std": 0.005477,
+        "range": 0.01,
+        "min": 0.08,
+        "max": 0.09,
+        "values": [
+          0.09,
+          0.08,
+          0.09,
+          0.09,
+          0.08
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "mvp_scoped"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e2-017",
+      "exp": "E2",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "mvp_scoped": {
+        "mode": 1,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "1": 5
+        }
+      },
+      "mvp_scoped_noul": {
+        "mean": 0.788,
+        "std": 0.004472,
+        "range": 0.01,
+        "min": 0.78,
+        "max": 0.79,
+        "values": [
+          0.79,
+          0.79,
+          0.79,
+          0.78,
+          0.79
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "mvp_scoped"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e2-021",
+      "exp": "E2",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "mvp_scoped": {
+        "mode": 0,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "0": 5
+        }
+      },
+      "mvp_scoped_noul": {
+        "mean": 0.456,
+        "std": 0.005477,
+        "range": 0.01,
+        "min": 0.45,
+        "max": 0.46,
+        "values": [
+          0.46,
+          0.45,
+          0.46,
+          0.46,
+          0.45
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "mvp_scoped"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e2-022",
+      "exp": "E2",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "mvp_scoped": {
+        "mode": 1,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "1": 5
+        }
+      },
+      "mvp_scoped_noul": {
+        "mean": 0.59,
+        "std": 0.015811,
+        "range": 0.04,
+        "min": 0.57,
+        "max": 0.61,
+        "values": [
+          0.6,
+          0.61,
+          0.59,
+          0.57,
+          0.58
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "mvp_scoped"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e2-002",
+      "exp": "E2",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "metric_measurable": {
+        "mode": 1,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "1": 5
+        }
+      },
+      "metric_measurable_noul": {
+        "mean": 0.844,
+        "std": 0.008944,
+        "range": 0.02,
+        "min": 0.83,
+        "max": 0.85,
+        "values": [
+          0.84,
+          0.83,
+          0.85,
+          0.85,
+          0.85
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "metric_measurable"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e2-003",
+      "exp": "E2",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "metric_measurable": {
+        "mode": 0,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "0": 5
+        }
+      },
+      "metric_measurable_noul": {
+        "mean": 0.02,
+        "std": 0.0,
+        "range": 0.0,
+        "min": 0.02,
+        "max": 0.02,
+        "values": [
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "metric_measurable"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e2-008",
+      "exp": "E2",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "metric_measurable": {
+        "mode": 0,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "0": 5
+        }
+      },
+      "metric_measurable_noul": {
+        "mean": 0.214,
+        "std": 0.016733,
+        "range": 0.04,
+        "min": 0.2,
+        "max": 0.24,
+        "values": [
+          0.24,
+          0.22,
+          0.21,
+          0.2,
+          0.2
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "metric_measurable"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e2-011",
+      "exp": "E2",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "metric_measurable": {
+        "mode": 1,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "1": 5
+        }
+      },
+      "metric_measurable_noul": {
+        "mean": 0.614,
+        "std": 0.013416,
+        "range": 0.03,
+        "min": 0.6,
+        "max": 0.63,
+        "values": [
+          0.62,
+          0.62,
+          0.6,
+          0.63,
+          0.6
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "metric_measurable"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e2-025",
+      "exp": "E2",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "metric_measurable": {
+        "mode": 0,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "0": 5
+        }
+      },
+      "metric_measurable_noul": {
+        "mean": 0.03,
+        "std": 0.0,
+        "range": 0.0,
+        "min": 0.03,
+        "max": 0.03,
+        "values": [
+          0.03,
+          0.03,
+          0.03,
+          0.03,
+          0.03
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "metric_measurable"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e3-001",
+      "exp": "E3",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "advances_hypothesis": {
+        "mode": 1,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "1": 5
+        }
+      },
+      "advances_hypothesis_noul": {
+        "mean": 0.874,
+        "std": 0.005477,
+        "range": 0.01,
+        "min": 0.87,
+        "max": 0.88,
+        "values": [
+          0.87,
+          0.88,
+          0.87,
+          0.88,
+          0.87
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "cta_clarity": {
+        "mode": "high",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "high": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "advances_hypothesis",
+        "cta_clarity"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e3-006",
+      "exp": "E3",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "advances_hypothesis": {
+        "mode": 1,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "1": 5
+        }
+      },
+      "advances_hypothesis_noul": {
+        "mean": 0.882,
+        "std": 0.008367,
+        "range": 0.02,
+        "min": 0.87,
+        "max": 0.89,
+        "values": [
+          0.88,
+          0.88,
+          0.89,
+          0.87,
+          0.89
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "cta_clarity": {
+        "mode": "medium",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "medium": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "advances_hypothesis",
+        "cta_clarity"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e3-008",
+      "exp": "E3",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "advances_hypothesis": {
+        "mode": 0,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "0": 5
+        }
+      },
+      "advances_hypothesis_noul": {
+        "mean": 0.05,
+        "std": 0.0,
+        "range": 0.0,
+        "min": 0.05,
+        "max": 0.05,
+        "values": [
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "cta_clarity": {
+        "mode": "medium",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "medium": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "advances_hypothesis",
+        "cta_clarity"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e3-009",
+      "exp": "E3",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "advances_hypothesis": {
+        "mode": 0,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "0": 5
+        }
+      },
+      "advances_hypothesis_noul": {
+        "mean": 0.02,
+        "std": 0.0,
+        "range": 0.0,
+        "min": 0.02,
+        "max": 0.02,
+        "values": [
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "cta_clarity": {
+        "mode": "high",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "high": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "advances_hypothesis",
+        "cta_clarity"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e3-013",
+      "exp": "E3",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "advances_hypothesis": {
+        "mode": 0,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "0": 5
+        }
+      },
+      "advances_hypothesis_noul": {
+        "mean": 0.03,
+        "std": 0.0,
+        "range": 0.0,
+        "min": 0.03,
+        "max": 0.03,
+        "values": [
+          0.03,
+          0.03,
+          0.03,
+          0.03,
+          0.03
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "cta_clarity": {
+        "mode": "low",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "low": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "advances_hypothesis",
+        "cta_clarity"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e3-015",
+      "exp": "E3",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "advances_hypothesis": {
+        "mode": 1,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "1": 5
+        }
+      },
+      "advances_hypothesis_noul": {
+        "mean": 0.834,
+        "std": 0.005477,
+        "range": 0.01,
+        "min": 0.83,
+        "max": 0.84,
+        "values": [
+          0.83,
+          0.83,
+          0.84,
+          0.83,
+          0.84
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "cta_clarity": {
+        "mode": "low",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "low": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "advances_hypothesis",
+        "cta_clarity"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e3-017",
+      "exp": "E3",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "advances_hypothesis": {
+        "mode": 0,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "0": 5
+        }
+      },
+      "advances_hypothesis_noul": {
+        "mean": 0.434,
+        "std": 0.02881,
+        "range": 0.08,
+        "min": 0.39,
+        "max": 0.47,
+        "values": [
+          0.47,
+          0.44,
+          0.39,
+          0.43,
+          0.44
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "cta_clarity": {
+        "mode": "low",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "low": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "advances_hypothesis",
+        "cta_clarity"
+      ],
+      "discrete_unique": 1
+    },
+    {
+      "id": "e3-019",
+      "exp": "E3",
+      "n_ok": 5,
+      "n_fail": 0,
+      "failures": [],
+      "advances_hypothesis": {
+        "mode": 0,
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "0": 5
+        }
+      },
+      "advances_hypothesis_noul": {
+        "mean": 0.234,
+        "std": 0.008944,
+        "range": 0.02,
+        "min": 0.23,
+        "max": 0.25,
+        "values": [
+          0.23,
+          0.23,
+          0.23,
+          0.23,
+          0.25
+        ],
+        "stable": true,
+        "n": 5
+      },
+      "cta_clarity": {
+        "mode": "low",
+        "mode_agreement": 1.0,
+        "unique_count": 1,
+        "n": 5,
+        "counts": {
+          "low": 5
+        },
+        "frac_exact": 1.0,
+        "frac_within_adjacent": 1.0,
+        "level_variance": 0.0
+      },
+      "perfect_5of5": true,
+      "at_least_4of5": true,
+      "discrete_mode_count": 5,
+      "discrete_keys": [
+        "advances_hypothesis",
+        "cta_clarity"
+      ],
+      "discrete_unique": 1
+    }
+  ]
+}
