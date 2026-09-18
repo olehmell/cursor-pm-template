@@ -28,9 +28,9 @@ Interview synthesis and PRD review still lean on free-text LLM drafts that are h
 - **N = 35** (target was 30–50)
 - Live Jev run artifacts: `runs/E1/`
 
-### E2 — PRD (scaffolded)
+### E2 — PRD (complete, exploratory)
 
-Dataset stub `datasets/e2_prd_sections.jsonl` from `usecases/02-prd-writing/artifacts/`; protocol in `protocols/E2-prd.md`. Full Jev runs deferred.
+N=27 sections; live noul gates — mvp_scoped **100%** (11/11), metric_measurable **93.8%** (15/16). See `paper/DRAFT-E2.md` and `runs/E2/`.
 
 ### E3 — Prototype (planned)
 
@@ -50,7 +50,7 @@ See `protocols/E3-prototype.md`.
 
 ## Conclusion
 
-Typed System-One judgments can sit inside PM analysis without inventing a new use case. On this small E1 set, theme choice is moderately useful; activation severity score needs work before product gating. Next: E2 PRD section checks; optional E1 recalibration with bilingual state and severity few-shot exemplars.
+Typed System-One judgments can sit inside PM analysis without inventing a new use case. On this small E1 set, theme choice is moderately useful; activation severity score needs work before product gating. E2 complete (see DRAFT-E2). Optional: E1 severity recalibration; E3 prototype gates.
 
 ## Limits
 

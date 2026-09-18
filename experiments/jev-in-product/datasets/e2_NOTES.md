@@ -1,9 +1,7 @@
-# E2 dataset notes (scaffold)
+# E2 dataset notes
 
-- Source: `usecases/02-prd-writing/artifacts/`
+- Source: `usecases/02-prd-writing/artifacts/` (+ 2 synthetic controls, marked `synthetic: true`)
 - Unit: PRD section or metric bullet
-- Provisional gold for `mvp_scoped` (noul) and/or `metric_measurable` (noul) — **not yet run through Jev**
-- Rubric hint: measurable = named metric + operational definition (who/what/when) + preferably target; vague survey vibes = false
-- MVP-scoped = explicit in/out or tight core value; vision/hub/roadmap fluff = false
-- Expand toward 20–30 items before full E2 API runs
+- **N=27**; gold for `mvp_scoped` / `metric_measurable` as 1/0/null — frozen in `e2_rubric.md` before Jev
+- Live run: `runs/E2/` (2026-09-18); model `jev-1.13.0`
 - Protocol: `protocols/E2-prd.md`

@@ -17,7 +17,7 @@ Calibration of noul vs binary gold; false “pass” rate (dangerous for shippin
 
 ---
 
-## Scaffold status (2026-09-18)
+## Status (2026-09-18 — complete)
 
-Initial dataset: `datasets/e2_prd_sections.jsonl` (12 items from PRD/MVP/roadmap artifacts) + `datasets/e2_NOTES.md`.
-**No live Jev E2 runs yet** — expand to ~20–30 and freeze rubric before calling API.
+Dataset: `datasets/e2_prd_sections.jsonl` (**N=27**) + frozen `datasets/e2_rubric.md`.
+Live Jev: `runs/E2/` — mvp_scoped **100%** (11), metric_measurable **93.8%** (16); 0 API failures.

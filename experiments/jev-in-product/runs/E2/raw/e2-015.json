@@ -1,0 +1,21 @@
+{
+  "request_meta": {
+    "id": "e2-015",
+    "questions": [
+      "metric_measurable"
+    ]
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "metric_measurable": {
+        "type": "noul",
+        "noul": 0.75
+      }
+    },
+    "usage": {
+      "input_tokens": 1748,
+      "output_tokens": 24
+    }
+  }
+}

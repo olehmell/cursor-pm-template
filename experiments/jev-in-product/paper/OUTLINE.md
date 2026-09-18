@@ -26,7 +26,11 @@ E1 theme acc **68.6%**; severity exact **34.3%**, adjacent **71.4%**. See `runs/
 Where probabilities change a PM workflow; failure modes; what stays LLM-drafted.
 
 ## 8. Limits & next
-Tiny N, demo product context, single labeler. Next: E2 runs; E1 severity recalibration.
+Tiny N, demo product context, single labeler. E2 complete; optional E1 severity recalibration; E3 next.
 
 ## Status
 **E1 complete** (dataset + live Jev + metrics + draft abstract/method/results). Outline + draft updated 2026-09-18; tracked draft is `DRAFT-E1.md`.
+
+## E2 status (2026-09-18)
+
+**E2 complete** — N=27; mvp_scoped 100% (11/11); metric_measurable 93.8% (15/16); false-pass 0%; see `runs/E2/metrics.md` and `paper/DRAFT-E2.md`.

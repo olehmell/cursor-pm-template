@@ -1,0 +1,477 @@
+{
+  "model": "jev-latest",
+  "dataset": "datasets/e2_prd_sections.jsonl",
+  "n": 27,
+  "threshold": 0.5,
+  "results": [
+    {
+      "id": "e2-001",
+      "item_type": "scope",
+      "synthetic": false,
+      "gold_mvp_scoped": 1,
+      "gold_metric_measurable": null,
+      "usage": {
+        "input_tokens": 1770,
+        "output_tokens": 23
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-001.json",
+      "mvp_scoped_noul": 0.91,
+      "pred_mvp_scoped": 1
+    },
+    {
+      "id": "e2-002",
+      "item_type": "metric",
+      "synthetic": false,
+      "gold_mvp_scoped": null,
+      "gold_metric_measurable": 1,
+      "usage": {
+        "input_tokens": 1705,
+        "output_tokens": 24
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-002.json",
+      "metric_measurable_noul": 0.84,
+      "pred_metric_measurable": 1
+    },
+    {
+      "id": "e2-003",
+      "item_type": "metric",
+      "synthetic": false,
+      "gold_mvp_scoped": null,
+      "gold_metric_measurable": 0,
+      "usage": {
+        "input_tokens": 1693,
+        "output_tokens": 24
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-003.json",
+      "metric_measurable_noul": 0.02,
+      "pred_metric_measurable": 0
+    },
+    {
+      "id": "e2-004",
+      "item_type": "metric",
+      "synthetic": false,
+      "gold_mvp_scoped": null,
+      "gold_metric_measurable": 1,
+      "usage": {
+        "input_tokens": 1759,
+        "output_tokens": 24
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-004.json",
+      "metric_measurable_noul": 0.87,
+      "pred_metric_measurable": 1
+    },
+    {
+      "id": "e2-005",
+      "item_type": "metric",
+      "synthetic": false,
+      "gold_mvp_scoped": null,
+      "gold_metric_measurable": 0,
+      "usage": {
+        "input_tokens": 1759,
+        "output_tokens": 24
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-005.json",
+      "metric_measurable_noul": 0.06,
+      "pred_metric_measurable": 0
+    },
+    {
+      "id": "e2-006",
+      "item_type": "scope",
+      "synthetic": false,
+      "gold_mvp_scoped": 1,
+      "gold_metric_measurable": null,
+      "usage": {
+        "input_tokens": 1706,
+        "output_tokens": 23
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-006.json",
+      "mvp_scoped_noul": 0.82,
+      "pred_mvp_scoped": 1
+    },
+    {
+      "id": "e2-007",
+      "item_type": "scope",
+      "synthetic": false,
+      "gold_mvp_scoped": 1,
+      "gold_metric_measurable": null,
+      "usage": {
+        "input_tokens": 1706,
+        "output_tokens": 23
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-007.json",
+      "mvp_scoped_noul": 0.86,
+      "pred_mvp_scoped": 1
+    },
+    {
+      "id": "e2-008",
+      "item_type": "metric",
+      "synthetic": false,
+      "gold_mvp_scoped": null,
+      "gold_metric_measurable": 1,
+      "usage": {
+        "input_tokens": 1705,
+        "output_tokens": 24
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-008.json",
+      "metric_measurable_noul": 0.22,
+      "pred_metric_measurable": 0
+    },
+    {
+      "id": "e2-009",
+      "item_type": "metric",
+      "synthetic": false,
+      "gold_mvp_scoped": null,
+      "gold_metric_measurable": 0,
+      "usage": {
+        "input_tokens": 1711,
+        "output_tokens": 24
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-009.json",
+      "metric_measurable_noul": 0.18,
+      "pred_metric_measurable": 0
+    },
+    {
+      "id": "e2-010",
+      "item_type": "scope",
+      "synthetic": false,
+      "gold_mvp_scoped": 0,
+      "gold_metric_measurable": null,
+      "usage": {
+        "input_tokens": 1751,
+        "output_tokens": 23
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-010.json",
+      "mvp_scoped_noul": 0.08,
+      "pred_mvp_scoped": 0
+    },
+    {
+      "id": "e2-011",
+      "item_type": "metric",
+      "synthetic": false,
+      "gold_mvp_scoped": null,
+      "gold_metric_measurable": 1,
+      "usage": {
+        "input_tokens": 1667,
+        "output_tokens": 24
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-011.json",
+      "metric_measurable_noul": 0.6,
+      "pred_metric_measurable": 1
+    },
+    {
+      "id": "e2-012",
+      "item_type": "scope",
+      "synthetic": false,
+      "gold_mvp_scoped": 0,
+      "gold_metric_measurable": null,
+      "usage": {
+        "input_tokens": 1748,
+        "output_tokens": 23
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-012.json",
+      "mvp_scoped_noul": 0.13,
+      "pred_mvp_scoped": 0
+    },
+    {
+      "id": "e2-013",
+      "item_type": "metric",
+      "synthetic": false,
+      "gold_mvp_scoped": null,
+      "gold_metric_measurable": 1,
+      "usage": {
+        "input_tokens": 1677,
+        "output_tokens": 24
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-013.json",
+      "metric_measurable_noul": 0.87,
+      "pred_metric_measurable": 1
+    },
+    {
+      "id": "e2-014",
+      "item_type": "metric",
+      "synthetic": false,
+      "gold_mvp_scoped": null,
+      "gold_metric_measurable": 1,
+      "usage": {
+        "input_tokens": 1697,
+        "output_tokens": 24
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-014.json",
+      "metric_measurable_noul": 0.76,
+      "pred_metric_measurable": 1
+    },
+    {
+      "id": "e2-015",
+      "item_type": "metric",
+      "synthetic": false,
+      "gold_mvp_scoped": null,
+      "gold_metric_measurable": 1,
+      "usage": {
+        "input_tokens": 1748,
+        "output_tokens": 24
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-015.json",
+      "metric_measurable_noul": 0.75,
+      "pred_metric_measurable": 1
+    },
+    {
+      "id": "e2-016",
+      "item_type": "metric",
+      "synthetic": false,
+      "gold_mvp_scoped": null,
+      "gold_metric_measurable": 1,
+      "usage": {
+        "input_tokens": 1729,
+        "output_tokens": 24
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-016.json",
+      "metric_measurable_noul": 0.67,
+      "pred_metric_measurable": 1
+    },
+    {
+      "id": "e2-017",
+      "item_type": "scope",
+      "synthetic": false,
+      "gold_mvp_scoped": 1,
+      "gold_metric_measurable": null,
+      "usage": {
+        "input_tokens": 1790,
+        "output_tokens": 23
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-017.json",
+      "mvp_scoped_noul": 0.76,
+      "pred_mvp_scoped": 1
+    },
+    {
+      "id": "e2-018",
+      "item_type": "scope",
+      "synthetic": false,
+      "gold_mvp_scoped": 0,
+      "gold_metric_measurable": null,
+      "usage": {
+        "input_tokens": 1808,
+        "output_tokens": 23
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-018.json",
+      "mvp_scoped_noul": 0.11,
+      "pred_mvp_scoped": 0
+    },
+    {
+      "id": "e2-019",
+      "item_type": "metric",
+      "synthetic": false,
+      "gold_mvp_scoped": null,
+      "gold_metric_measurable": 0,
+      "usage": {
+        "input_tokens": 1693,
+        "output_tokens": 24
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-019.json",
+      "metric_measurable_noul": 0.12,
+      "pred_metric_measurable": 0
+    },
+    {
+      "id": "e2-020",
+      "item_type": "metric",
+      "synthetic": false,
+      "gold_mvp_scoped": null,
+      "gold_metric_measurable": 0,
+      "usage": {
+        "input_tokens": 1669,
+        "output_tokens": 24
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-020.json",
+      "metric_measurable_noul": 0.24,
+      "pred_metric_measurable": 0
+    },
+    {
+      "id": "e2-021",
+      "item_type": "scope",
+      "synthetic": false,
+      "gold_mvp_scoped": 0,
+      "gold_metric_measurable": null,
+      "usage": {
+        "input_tokens": 1688,
+        "output_tokens": 23
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-021.json",
+      "mvp_scoped_noul": 0.46,
+      "pred_mvp_scoped": 0
+    },
+    {
+      "id": "e2-022",
+      "item_type": "scope",
+      "synthetic": false,
+      "gold_mvp_scoped": 1,
+      "gold_metric_measurable": null,
+      "usage": {
+        "input_tokens": 1709,
+        "output_tokens": 23
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-022.json",
+      "mvp_scoped_noul": 0.56,
+      "pred_mvp_scoped": 1
+    },
+    {
+      "id": "e2-023",
+      "item_type": "scope",
+      "synthetic": false,
+      "gold_mvp_scoped": 0,
+      "gold_metric_measurable": null,
+      "usage": {
+        "input_tokens": 1719,
+        "output_tokens": 23
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-023.json",
+      "mvp_scoped_noul": 0.13,
+      "pred_mvp_scoped": 0
+    },
+    {
+      "id": "e2-024",
+      "item_type": "metric",
+      "synthetic": false,
+      "gold_mvp_scoped": null,
+      "gold_metric_measurable": 1,
+      "usage": {
+        "input_tokens": 1691,
+        "output_tokens": 24
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-024.json",
+      "metric_measurable_noul": 0.91,
+      "pred_metric_measurable": 1
+    },
+    {
+      "id": "e2-025",
+      "item_type": "metric",
+      "synthetic": true,
+      "gold_mvp_scoped": null,
+      "gold_metric_measurable": 0,
+      "usage": {
+        "input_tokens": 1660,
+        "output_tokens": 24
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-025.json",
+      "metric_measurable_noul": 0.03,
+      "pred_metric_measurable": 0
+    },
+    {
+      "id": "e2-026",
+      "item_type": "metric",
+      "synthetic": true,
+      "gold_mvp_scoped": null,
+      "gold_metric_measurable": 1,
+      "usage": {
+        "input_tokens": 1683,
+        "output_tokens": 24
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-026.json",
+      "metric_measurable_noul": 0.97,
+      "pred_metric_measurable": 1
+    },
+    {
+      "id": "e2-027",
+      "item_type": "scope",
+      "synthetic": false,
+      "gold_mvp_scoped": 0,
+      "gold_metric_measurable": null,
+      "usage": {
+        "input_tokens": 1693,
+        "output_tokens": 23
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E2/raw/e2-027.json",
+      "mvp_scoped_noul": 0.08,
+      "pred_mvp_scoped": 0
+    }
+  ],
+  "failures": [],
+  "metrics": {
+    "threshold": 0.5,
+    "mvp_scoped": {
+      "n": 11,
+      "accuracy": 1.0,
+      "correct": 11,
+      "confusion": {
+        "tp": 5,
+        "tn": 6,
+        "fp": 0,
+        "fn": 0
+      },
+      "false_pass_rate": 0.0,
+      "auc": 1.0,
+      "brier": 0.05287272727272727,
+      "score_mean": 0.4454545454545455,
+      "score_min": 0.08,
+      "score_max": 0.91,
+      "score_by_gold": {
+        "gold1_mean": 0.782,
+        "gold0_mean": 0.165,
+        "n_gold1": 5,
+        "n_gold0": 6
+      },
+      "misses": []
+    },
+    "metric_measurable": {
+      "n": 16,
+      "accuracy": 0.9375,
+      "correct": 15,
+      "confusion": {
+        "tp": 9,
+        "tn": 6,
+        "fp": 0,
+        "fn": 1
+      },
+      "false_pass_rate": 0.0,
+      "auc": 0.9833333333333333,
+      "brier": 0.07344375,
+      "score_mean": 0.506875,
+      "score_min": 0.02,
+      "score_max": 0.97,
+      "score_by_gold": {
+        "gold1_mean": 0.746,
+        "gold0_mean": 0.10833333333333334,
+        "n_gold1": 10,
+        "n_gold0": 6
+      },
+      "misses": [
+        {
+          "id": "e2-008",
+          "gold": 1,
+          "pred": 0,
+          "noul": 0.22
+        }
+      ]
+    },
+    "n_items": 27,
+    "n_ok": 27,
+    "n_fail": 0,
+    "model": "jev-latest",
+    "model_resolved": "jev-1.13.0"
+  }
+}
