@@ -20,7 +20,7 @@ For each task family: define 1–2 judgments, build a small gold dataset, run Je
 E1: `datasets/e1_interview_passages.jsonl` + `e1_rubric.md` (single labeler, frozen rubric). E2 stub: `e2_prd_sections.jsonl`.
 
 ## 6. Results
-E1 theme acc **68.6%**; severity exact **34.3%**, adjacent **71.4%**. See `runs/E1/metrics.md` and `paper/DRAFT.md`.
+E1 theme acc **68.6%**; severity exact **34.3%**, adjacent **71.4%**. See `runs/E1/metrics.md` and `paper/DRAFT-E1.md (DRAFT.md is gitignored by template)`.
 
 ## 7. Discussion
 Where probabilities change a PM workflow; failure modes; what stays LLM-drafted.
@@ -29,4 +29,4 @@ Where probabilities change a PM workflow; failure modes; what stays LLM-drafted.
 Tiny N, demo product context, single labeler. Next: E2 runs; E1 severity recalibration.
 
 ## Status
-**E1 complete** (dataset + live Jev + metrics + draft abstract/method/results). Outline + draft updated 2026-09-18.
+**E1 complete** (dataset + live Jev + metrics + draft abstract/method/results). Outline + draft updated 2026-09-18; tracked draft is `DRAFT-E1.md`.
