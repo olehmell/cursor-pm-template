@@ -1,5 +1,13 @@
 # Session notes
 
+## 2026-09-18 (loop 4 — paper consolidated)
+- Branch: `experiment/jev-product-tasks` only.
+- Wrote consolidated short paper `paper/PAPER.md` (~1350 words): Abstract, Intro, Method, E1–E3 tables, Findings, Discussion, Limits, Next steps.
+- Numbers from live runs only (no invented metrics). Honest about small N and PetCare/PetID demo context.
+- Updated `paper/OUTLINE.md` status to **FILLED**.
+- Drafts retained: `DRAFT-E1.md`, `DRAFT-E2.md`, `DRAFT-E3.md`.
+- Do not push to main.
+
 ## 2026-09-18 (loop 3 — E3 live run)
 - Branch: `experiment/jev-product-tasks` only.
 - Built E3 dataset **N=21** (8 PetID screens + 13 synthetic controls); gold + rubric frozen in `datasets/e3_rubric.md` **before** API.
