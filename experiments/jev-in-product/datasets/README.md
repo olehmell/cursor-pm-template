@@ -11,3 +11,7 @@ Place gold sets here as CSV/JSONL.
 - `e2_NOTES.md` — labeling hints; expand before live runs
 
 Do not put API keys in this folder.
+
+## E3 (prototype) — ready
+- `e3_screens.jsonl` — screen descriptions; gold `advances_hypothesis` / `cta_clarity`
+- `e3_rubric.md` — frozen labeling rubric (hypothesis + CTA clarity)

@@ -1,0 +1,21 @@
+{
+  "request_meta": {
+    "id": "e3-004",
+    "questions": [
+      "advances_hypothesis"
+    ]
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "advances_hypothesis": {
+        "type": "noul",
+        "noul": 0.83
+      }
+    },
+    "usage": {
+      "input_tokens": 517,
+      "output_tokens": 25
+    }
+  }
+}

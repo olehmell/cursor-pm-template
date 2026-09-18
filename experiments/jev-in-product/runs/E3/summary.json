@@ -1,0 +1,618 @@
+{
+  "model": "jev-latest",
+  "dataset": "datasets/e3_screens.jsonl",
+  "n": 21,
+  "threshold": 0.5,
+  "hypothesis": "Users want to store pet medical documents in the app via photo upload (PetID Digital Vet Passport MVP).",
+  "results": [
+    {
+      "id": "e3-001",
+      "screen_id": "onboarding-upload",
+      "synthetic": false,
+      "gold_advances_hypothesis": 1,
+      "gold_cta_clarity": "high",
+      "usage": {
+        "input_tokens": 691,
+        "output_tokens": 40
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-001.json",
+      "advances_hypothesis_noul": 0.88,
+      "pred_advances_hypothesis": 1,
+      "cta_clarity_score": 1.98,
+      "cta_clarity_confidence": 0.97,
+      "cta_clarity_probabilities": {
+        "0": 0.0,
+        "1": 0.01,
+        "2": 0.99
+      },
+      "cta_clarity_legend": {
+        "0": "low — vague primary label (Next/Continue/OK), competing equal CTAs, or upload action buried",
+        "1": "medium — primary exists but icon-only, slightly ambiguous, or secondary-styled yet discoverable",
+        "2": "high — one clear primary with action label matching the intended next step; visually dominant"
+      },
+      "pred_cta_clarity": "high"
+    },
+    {
+      "id": "e3-002",
+      "screen_id": "photo-preview",
+      "synthetic": false,
+      "gold_advances_hypothesis": 1,
+      "gold_cta_clarity": "high",
+      "usage": {
+        "input_tokens": 676,
+        "output_tokens": 40
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-002.json",
+      "advances_hypothesis_noul": 0.93,
+      "pred_advances_hypothesis": 1,
+      "cta_clarity_score": 1.91,
+      "cta_clarity_confidence": 0.87,
+      "cta_clarity_probabilities": {
+        "0": 0.0,
+        "1": 0.08,
+        "2": 0.92
+      },
+      "cta_clarity_legend": {
+        "0": "low — vague primary label (Next/Continue/OK), competing equal CTAs, or upload action buried",
+        "1": "medium — primary exists but icon-only, slightly ambiguous, or secondary-styled yet discoverable",
+        "2": "high — one clear primary with action label matching the intended next step; visually dominant"
+      },
+      "pred_cta_clarity": "high"
+    },
+    {
+      "id": "e3-003",
+      "screen_id": "upload-progress",
+      "synthetic": false,
+      "gold_advances_hypothesis": 1,
+      "gold_cta_clarity": null,
+      "usage": {
+        "input_tokens": 535,
+        "output_tokens": 25
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-003.json",
+      "advances_hypothesis_noul": 0.77,
+      "pred_advances_hypothesis": 1
+    },
+    {
+      "id": "e3-004",
+      "screen_id": "upload-success",
+      "synthetic": false,
+      "gold_advances_hypothesis": 1,
+      "gold_cta_clarity": null,
+      "usage": {
+        "input_tokens": 517,
+        "output_tokens": 25
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-004.json",
+      "advances_hypothesis_noul": 0.83,
+      "pred_advances_hypothesis": 1
+    },
+    {
+      "id": "e3-005",
+      "screen_id": "petid-empty",
+      "synthetic": false,
+      "gold_advances_hypothesis": 1,
+      "gold_cta_clarity": "high",
+      "usage": {
+        "input_tokens": 675,
+        "output_tokens": 40
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-005.json",
+      "advances_hypothesis_noul": 0.88,
+      "pred_advances_hypothesis": 1,
+      "cta_clarity_score": 2.0,
+      "cta_clarity_confidence": 0.99,
+      "cta_clarity_probabilities": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 1.0
+      },
+      "cta_clarity_legend": {
+        "0": "low — vague primary label (Next/Continue/OK), competing equal CTAs, or upload action buried",
+        "1": "medium — primary exists but icon-only, slightly ambiguous, or secondary-styled yet discoverable",
+        "2": "high — one clear primary with action label matching the intended next step; visually dominant"
+      },
+      "pred_cta_clarity": "high"
+    },
+    {
+      "id": "e3-006",
+      "screen_id": "petid-gallery",
+      "synthetic": false,
+      "gold_advances_hypothesis": 1,
+      "gold_cta_clarity": "medium",
+      "usage": {
+        "input_tokens": 677,
+        "output_tokens": 40
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-006.json",
+      "advances_hypothesis_noul": 0.88,
+      "pred_advances_hypothesis": 1,
+      "cta_clarity_score": 1.0,
+      "cta_clarity_confidence": 0.99,
+      "cta_clarity_probabilities": {
+        "0": 0.0,
+        "1": 0.99,
+        "2": 0.01
+      },
+      "cta_clarity_legend": {
+        "0": "low — vague primary label (Next/Continue/OK), competing equal CTAs, or upload action buried",
+        "1": "medium — primary exists but icon-only, slightly ambiguous, or secondary-styled yet discoverable",
+        "2": "high — one clear primary with action label matching the intended next step; visually dominant"
+      },
+      "pred_cta_clarity": "medium"
+    },
+    {
+      "id": "e3-007",
+      "screen_id": "photo-viewer",
+      "synthetic": false,
+      "gold_advances_hypothesis": 1,
+      "gold_cta_clarity": null,
+      "usage": {
+        "input_tokens": 531,
+        "output_tokens": 25
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-007.json",
+      "advances_hypothesis_noul": 0.62,
+      "pred_advances_hypothesis": 1
+    },
+    {
+      "id": "e3-008",
+      "screen_id": "delete-confirmation",
+      "synthetic": false,
+      "gold_advances_hypothesis": 0,
+      "gold_cta_clarity": "medium",
+      "usage": {
+        "input_tokens": 673,
+        "output_tokens": 40
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-008.json",
+      "advances_hypothesis_noul": 0.05,
+      "pred_advances_hypothesis": 0,
+      "cta_clarity_score": 1.01,
+      "cta_clarity_confidence": 0.32,
+      "cta_clarity_probabilities": {
+        "0": 0.22,
+        "1": 0.54,
+        "2": 0.24
+      },
+      "cta_clarity_legend": {
+        "0": "low — vague primary label (Next/Continue/OK), competing equal CTAs, or upload action buried",
+        "1": "medium — primary exists but icon-only, slightly ambiguous, or secondary-styled yet discoverable",
+        "2": "high — one clear primary with action label matching the intended next step; visually dominant"
+      },
+      "pred_cta_clarity": "medium"
+    },
+    {
+      "id": "e3-009",
+      "screen_id": "neg-feeding-schedule",
+      "synthetic": true,
+      "gold_advances_hypothesis": 0,
+      "gold_cta_clarity": "high",
+      "usage": {
+        "input_tokens": 674,
+        "output_tokens": 40
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-009.json",
+      "advances_hypothesis_noul": 0.02,
+      "pred_advances_hypothesis": 0,
+      "cta_clarity_score": 1.43,
+      "cta_clarity_confidence": 0.15,
+      "cta_clarity_probabilities": {
+        "0": 0.28,
+        "1": 0.01,
+        "2": 0.71
+      },
+      "cta_clarity_legend": {
+        "0": "low — vague primary label (Next/Continue/OK), competing equal CTAs, or upload action buried",
+        "1": "medium — primary exists but icon-only, slightly ambiguous, or secondary-styled yet discoverable",
+        "2": "high — one clear primary with action label matching the intended next step; visually dominant"
+      },
+      "pred_cta_clarity": "high"
+    },
+    {
+      "id": "e3-010",
+      "screen_id": "neg-community-feed",
+      "synthetic": true,
+      "gold_advances_hypothesis": 0,
+      "gold_cta_clarity": null,
+      "usage": {
+        "input_tokens": 520,
+        "output_tokens": 25
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-010.json",
+      "advances_hypothesis_noul": 0.02,
+      "pred_advances_hypothesis": 0
+    },
+    {
+      "id": "e3-011",
+      "screen_id": "neg-welcome-splash",
+      "synthetic": true,
+      "gold_advances_hypothesis": 0,
+      "gold_cta_clarity": "medium",
+      "usage": {
+        "input_tokens": 674,
+        "output_tokens": 40
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-011.json",
+      "advances_hypothesis_noul": 0.02,
+      "pred_advances_hypothesis": 0,
+      "cta_clarity_score": 0.98,
+      "cta_clarity_confidence": 0.0,
+      "cta_clarity_probabilities": {
+        "0": 0.48,
+        "1": 0.05,
+        "2": 0.47
+      },
+      "cta_clarity_legend": {
+        "0": "low — vague primary label (Next/Continue/OK), competing equal CTAs, or upload action buried",
+        "1": "medium — primary exists but icon-only, slightly ambiguous, or secondary-styled yet discoverable",
+        "2": "high — one clear primary with action label matching the intended next step; visually dominant"
+      },
+      "pred_cta_clarity": "low"
+    },
+    {
+      "id": "e3-012",
+      "screen_id": "neg-privacy-settings",
+      "synthetic": true,
+      "gold_advances_hypothesis": 0,
+      "gold_cta_clarity": null,
+      "usage": {
+        "input_tokens": 516,
+        "output_tokens": 25
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-012.json",
+      "advances_hypothesis_noul": 0.02,
+      "pred_advances_hypothesis": 0
+    },
+    {
+      "id": "e3-013",
+      "screen_id": "neg-vague-next",
+      "synthetic": true,
+      "gold_advances_hypothesis": 0,
+      "gold_cta_clarity": "low",
+      "usage": {
+        "input_tokens": 679,
+        "output_tokens": 40
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-013.json",
+      "advances_hypothesis_noul": 0.03,
+      "pred_advances_hypothesis": 0,
+      "cta_clarity_score": 0.02,
+      "cta_clarity_confidence": 0.97,
+      "cta_clarity_probabilities": {
+        "0": 0.99,
+        "1": 0.0,
+        "2": 0.01
+      },
+      "cta_clarity_legend": {
+        "0": "low — vague primary label (Next/Continue/OK), competing equal CTAs, or upload action buried",
+        "1": "medium — primary exists but icon-only, slightly ambiguous, or secondary-styled yet discoverable",
+        "2": "high — one clear primary with action label matching the intended next step; visually dominant"
+      },
+      "pred_cta_clarity": "low"
+    },
+    {
+      "id": "e3-014",
+      "screen_id": "neg-clinic-map",
+      "synthetic": true,
+      "gold_advances_hypothesis": 0,
+      "gold_cta_clarity": "high",
+      "usage": {
+        "input_tokens": 659,
+        "output_tokens": 40
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-014.json",
+      "advances_hypothesis_noul": 0.02,
+      "pred_advances_hypothesis": 0,
+      "cta_clarity_score": 1.41,
+      "cta_clarity_confidence": 0.12,
+      "cta_clarity_probabilities": {
+        "0": 0.28,
+        "1": 0.02,
+        "2": 0.7
+      },
+      "cta_clarity_legend": {
+        "0": "low — vague primary label (Next/Continue/OK), competing equal CTAs, or upload action buried",
+        "1": "medium — primary exists but icon-only, slightly ambiguous, or secondary-styled yet discoverable",
+        "2": "high — one clear primary with action label matching the intended next step; visually dominant"
+      },
+      "pred_cta_clarity": "high"
+    },
+    {
+      "id": "e3-015",
+      "screen_id": "ctrl-preview-continue",
+      "synthetic": true,
+      "gold_advances_hypothesis": 1,
+      "gold_cta_clarity": "low",
+      "usage": {
+        "input_tokens": 674,
+        "output_tokens": 40
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-015.json",
+      "advances_hypothesis_noul": 0.84,
+      "pred_advances_hypothesis": 1,
+      "cta_clarity_score": 0.01,
+      "cta_clarity_confidence": 0.99,
+      "cta_clarity_probabilities": {
+        "0": 1.0,
+        "1": 0.0,
+        "2": 0.0
+      },
+      "cta_clarity_legend": {
+        "0": "low — vague primary label (Next/Continue/OK), competing equal CTAs, or upload action buried",
+        "1": "medium — primary exists but icon-only, slightly ambiguous, or secondary-styled yet discoverable",
+        "2": "high — one clear primary with action label matching the intended next step; visually dominant"
+      },
+      "pred_cta_clarity": "low"
+    },
+    {
+      "id": "e3-016",
+      "screen_id": "neg-food-order-success",
+      "synthetic": true,
+      "gold_advances_hypothesis": 0,
+      "gold_cta_clarity": null,
+      "usage": {
+        "input_tokens": 514,
+        "output_tokens": 25
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-016.json",
+      "advances_hypothesis_noul": 0.02,
+      "pred_advances_hypothesis": 0
+    },
+    {
+      "id": "e3-017",
+      "screen_id": "ctrl-dual-cta-share-upload",
+      "synthetic": true,
+      "gold_advances_hypothesis": 1,
+      "gold_cta_clarity": "low",
+      "usage": {
+        "input_tokens": 683,
+        "output_tokens": 40
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-017.json",
+      "advances_hypothesis_noul": 0.44,
+      "pred_advances_hypothesis": 0,
+      "cta_clarity_score": 0.0,
+      "cta_clarity_confidence": 1.0,
+      "cta_clarity_probabilities": {
+        "0": 1.0,
+        "1": 0.0,
+        "2": 0.0
+      },
+      "cta_clarity_legend": {
+        "0": "low — vague primary label (Next/Continue/OK), competing equal CTAs, or upload action buried",
+        "1": "medium — primary exists but icon-only, slightly ambiguous, or secondary-styled yet discoverable",
+        "2": "high — one clear primary with action label matching the intended next step; visually dominant"
+      },
+      "pred_cta_clarity": "low"
+    },
+    {
+      "id": "e3-018",
+      "screen_id": "neg-vaccine-date-form",
+      "synthetic": true,
+      "gold_advances_hypothesis": 0,
+      "gold_cta_clarity": "medium",
+      "usage": {
+        "input_tokens": 674,
+        "output_tokens": 40
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-018.json",
+      "advances_hypothesis_noul": 0.02,
+      "pred_advances_hypothesis": 0,
+      "cta_clarity_score": 1.68,
+      "cta_clarity_confidence": 0.53,
+      "cta_clarity_probabilities": {
+        "0": 0.15,
+        "1": 0.02,
+        "2": 0.83
+      },
+      "cta_clarity_legend": {
+        "0": "low — vague primary label (Next/Continue/OK), competing equal CTAs, or upload action buried",
+        "1": "medium — primary exists but icon-only, slightly ambiguous, or secondary-styled yet discoverable",
+        "2": "high — one clear primary with action label matching the intended next step; visually dominant"
+      },
+      "pred_cta_clarity": "high"
+    },
+    {
+      "id": "e3-019",
+      "screen_id": "ctrl-skip-dominant",
+      "synthetic": true,
+      "gold_advances_hypothesis": 1,
+      "gold_cta_clarity": "low",
+      "usage": {
+        "input_tokens": 687,
+        "output_tokens": 40
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-019.json",
+      "advances_hypothesis_noul": 0.24,
+      "pred_advances_hypothesis": 0,
+      "cta_clarity_score": 0.01,
+      "cta_clarity_confidence": 0.98,
+      "cta_clarity_probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0.0
+      },
+      "cta_clarity_legend": {
+        "0": "low — vague primary label (Next/Continue/OK), competing equal CTAs, or upload action buried",
+        "1": "medium — primary exists but icon-only, slightly ambiguous, or secondary-styled yet discoverable",
+        "2": "high — one clear primary with action label matching the intended next step; visually dominant"
+      },
+      "pred_cta_clarity": "low"
+    },
+    {
+      "id": "e3-020",
+      "screen_id": "neg-invite-friends",
+      "synthetic": true,
+      "gold_advances_hypothesis": 0,
+      "gold_cta_clarity": "high",
+      "usage": {
+        "input_tokens": 667,
+        "output_tokens": 40
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-020.json",
+      "advances_hypothesis_noul": 0.02,
+      "pred_advances_hypothesis": 0,
+      "cta_clarity_score": 1.47,
+      "cta_clarity_confidence": 0.2,
+      "cta_clarity_probabilities": {
+        "0": 0.26,
+        "1": 0.02,
+        "2": 0.72
+      },
+      "cta_clarity_legend": {
+        "0": "low — vague primary label (Next/Continue/OK), competing equal CTAs, or upload action buried",
+        "1": "medium — primary exists but icon-only, slightly ambiguous, or secondary-styled yet discoverable",
+        "2": "high — one clear primary with action label matching the intended next step; visually dominant"
+      },
+      "pred_cta_clarity": "high"
+    },
+    {
+      "id": "e3-021",
+      "screen_id": "neg-add-pet-name",
+      "synthetic": true,
+      "gold_advances_hypothesis": 0,
+      "gold_cta_clarity": "high",
+      "usage": {
+        "input_tokens": 667,
+        "output_tokens": 40
+      },
+      "model_resolved": "jev-1.13.0",
+      "raw_file": "runs/E3/raw/e3-021.json",
+      "advances_hypothesis_noul": 0.03,
+      "pred_advances_hypothesis": 0,
+      "cta_clarity_score": 1.6,
+      "cta_clarity_confidence": 0.4,
+      "cta_clarity_probabilities": {
+        "0": 0.19,
+        "1": 0.01,
+        "2": 0.8
+      },
+      "cta_clarity_legend": {
+        "0": "low — vague primary label (Next/Continue/OK), competing equal CTAs, or upload action buried",
+        "1": "medium — primary exists but icon-only, slightly ambiguous, or secondary-styled yet discoverable",
+        "2": "high — one clear primary with action label matching the intended next step; visually dominant"
+      },
+      "pred_cta_clarity": "high"
+    }
+  ],
+  "failures": [],
+  "metrics": {
+    "threshold": 0.5,
+    "advances_hypothesis": {
+      "n": 21,
+      "accuracy": 0.9047619047619048,
+      "correct": 19,
+      "confusion": {
+        "tp": 8,
+        "tn": 11,
+        "fp": 0,
+        "fn": 2
+      },
+      "false_pass_rate": 0.0,
+      "auc": 1.0,
+      "brier": 0.05707619047619048,
+      "score_mean": 0.36095238095238097,
+      "score_min": 0.02,
+      "score_max": 0.93,
+      "score_by_gold": {
+        "gold1_mean": 0.731,
+        "gold0_mean": 0.024545454545454547,
+        "n_gold1": 10,
+        "n_gold0": 11
+      },
+      "misses": [
+        {
+          "id": "e3-017",
+          "gold": 1,
+          "pred": 0,
+          "noul": 0.44
+        },
+        {
+          "id": "e3-019",
+          "gold": 1,
+          "pred": 0,
+          "noul": 0.24
+        }
+      ]
+    },
+    "cta_clarity": {
+      "n": 15,
+      "exact": 13,
+      "exact_accuracy": 0.8666666666666667,
+      "adjacent": 15,
+      "adjacent_accuracy": 1.0,
+      "confusion": {
+        "low": {
+          "low": 4,
+          "medium": 0,
+          "high": 0
+        },
+        "medium": {
+          "low": 1,
+          "medium": 2,
+          "high": 1
+        },
+        "high": {
+          "low": 0,
+          "medium": 0,
+          "high": 7
+        }
+      },
+      "pred_dist": {
+        "low": 5,
+        "medium": 2,
+        "high": 8
+      },
+      "gold_dist": {
+        "low": 4,
+        "medium": 4,
+        "high": 7
+      },
+      "score_mean_by_gold": {
+        "low": 0.01,
+        "medium": 1.1675,
+        "high": 1.6857142857142857
+      },
+      "misses": [
+        {
+          "id": "e3-011",
+          "gold": "medium",
+          "pred": "low",
+          "score": 0.98
+        },
+        {
+          "id": "e3-018",
+          "gold": "medium",
+          "pred": "high",
+          "score": 1.68
+        }
+      ]
+    },
+    "n_items": 21,
+    "n_ok": 21,
+    "n_fail": 0,
+    "model": "jev-latest",
+    "model_resolved": "jev-1.13.0"
+  }
+}
