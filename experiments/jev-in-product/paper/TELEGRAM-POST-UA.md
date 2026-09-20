@@ -15,19 +15,20 @@
 3. **Guardrails / moderation** — jailbreak, toxicity перед дорогою моделлю.
 4. **Харнес** — який skill/модель вантажити, continue/retry/ask/stop.
 
-Я прогнав entity-кейси (UA телефонні рядки, тези про людину, матч назв компаній) head-to-head: **Jev API** vs **Laya multilingual** vs **`laya-typed-decisions`** на тих самих сетах (zero-shot на наш домен, CPU).
+Я прогнав entity-кейси (UA телефонні рядки, тези про людину, матч назв компаній) head-to-head на тих самих сетах (zero-shot, CPU): **Jev API** vs **Laya multilingual** vs **`laya-typed-decisions`** vs **jeff** (self-host drop-in під TypeSafe API на GLiFormer — те, про що писали в @zaduha).
 
-| UC | Jev | multilingual | typed-decisions |
-| --- | ---: | ---: | ---: |
-| UC1 токени (phone-book) | **95%** | 26% | **16%** |
-| UC2 релевантність тези | **92%** | 44% | **56%** |
-| UC3 same-entity назв | **87%** | 19% | **60%** |
+| UC | Jev | Laya multi | Laya typed | jeff |
+| --- | ---: | ---: | ---: | ---: |
+| UC1 токени (phone-book) | **95%** | 26% | 16% | 23% |
+| UC2 релевантність тези | **92%** | 44% | 56% | 56% |
+| UC3 same-entity назв | **87%** | 19% | 60% | 20% |
 
-Typed-decisions vs multilingual: **допоміг** на UC2/UC3 (+12 / +41 pp), на UC1 **погіршив** (−10 pp) — 6-way UA Choice все ще валиться. На UC2 recall=1, але всі gold-negative пішли в FP. На UC3 багато `same_entity`-bias. **Jev лишається попереду на всіх трьох.** Висновок: vendor FT під їх suite **не переноситься** чисто на наш zero-shot UA entity-харнес — open-source System 1 це база під **свій** FT, не drop-in.
+Open-source картина: Laya typed краще за multi на UC2/UC3, jeff близький до typed на UC2, але UC1/UC3 у нього валяться (масове `прізвище` / `uncertain`). **Jev попереду на всіх трьох.** Висновок: self-host аналоги (Laya / jeff≈GLiFormer) — нормальна база під свій FT або дешевий контур, не drop-in паритет з hosted Jev на нашому UA entity-харнесі.
 
 Висновок для себе: typed System 1 — сенсори в софті, не заміна Claude/Codex. Self-host + контроль ваг → Laya + свій FT. Готовий hosted API на вузьких гейтах → поки Jev (у мене на PM-гейтах і skill-роутері вже лягало).
 
 Хто вже ставив Laya typed у проді або FT під свій inbox — киньте в коменти.
 
 Laya typed: https://huggingface.co/convaiinnovations/laya-typed-decisions  
-Бенч (3 колонки): https://github.com/olehmell/phd/blob/experiment/jev-entity-tasks/experiments/jev-entity-tasks/comparison/COMPARISON-LAYA-VS-JEV.md
+jeff (GLiFormer): https://github.com/logan-markewich/jeff  
+Бенч: https://github.com/olehmell/phd/blob/experiment/jev-entity-tasks/experiments/jev-entity-tasks/comparison/COMPARISON-LAYA-VS-JEV.md
